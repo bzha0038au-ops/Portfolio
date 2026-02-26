@@ -8,15 +8,29 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi everyone! I’m <span className="purple">Soumyajit Behera</span>{" "}
-            from <span className="purple">Bhubaneswar, India</span>.
+            Hi everyone! I’m <span className="purple">Beile Zhang</span>{" "}
+            from <span className="purple">Fujian, China</span>, currently
+            living in <span className="purple">Annandale, Sydney</span>.
             <br />
-            I’m currently working as a{" "}
-            <span className="purple">Software Developer</span> at{" "}
-            <span className="purple">Juspay</span>.
-            <br />I hold an Integrated M.Sc. (IMSc) in{" "}
-            <span className="purple">Mathematics and Computing</span> from{" "}
-            <span className="purple">BIT Mesra</span>.
+            I was born on{" "}
+            <span className="purple">1 May 2002</span>.
+            <br />
+            I’m currently pursuing a{" "}
+            <span className="purple">
+              Master of Computer Science (Advanced Entry)
+            </span>{" "}
+            at the <span className="purple">University of Sydney</span>{" "}
+            (2026–2028).
+            <br />
+            Previously, I completed a{" "}
+            <span className="purple">Bachelor of Science</span> in{" "}
+            <span className="purple">Computer Science</span> at{" "}
+            <span className="purple">Durham University</span> (
+            <span className="purple">College of St Hild &amp; St Bede</span>),
+            graduating on{" "}
+            <span className="purple">3 July 2024</span> with{" "}
+            <span className="purple">Class II Division 1 (Honours)</span> and
+            an AI-focused dissertation.
             <br />
             <br />
             Outside of coding, I love engaging in activities that keep me
@@ -25,20 +39,20 @@ function AboutCard() {
 
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games 🎮
+              <ImPointRight /> Working Out 💪
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs ✍️
+              <ImPointRight /> Listening to Music 🎵
             </li>
             <li className="about-activity">
-              <ImPointRight /> Traveling and Exploring New Places 🌍
+              <ImPointRight /> Traveling 🌍
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Keep learning, keep building, keep improving!"{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Beile Zhang</footer>
         </blockquote>
       </Card.Body>
     </Card>

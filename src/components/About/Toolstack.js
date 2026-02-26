@@ -25,6 +25,61 @@ function Toolstack() {
         <img src={intelliJ} alt="go" className="tech-icon-images" />
         <div className="tech-icons-text">IntelliJ</div>
       </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <div style={{ fontSize: "1.6rem", fontWeight: 700, lineHeight: "1.6rem" }}>
+          W
+        </div>
+        <div className="tech-icons-text">Windows</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <div style={{ fontSize: "1.6rem", fontWeight: 700, lineHeight: "1.6rem" }}>
+          E
+        </div>
+        <div className="tech-icons-text">Microsoft Edge</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <div style={{ fontSize: "1.6rem", fontWeight: 700, lineHeight: "1.6rem" }}>
+          C
+        </div>
+        <div className="tech-icons-text">Cursor</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <div style={{ fontSize: "1.6rem", fontWeight: 700, lineHeight: "1.6rem" }}>
+          X
+        </div>
+        <div className="tech-icons-text">Code X</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <div style={{ fontSize: "1.6rem", fontWeight: 700, lineHeight: "1.6rem" }}>
+          N
+        </div>
+        <div className="tech-icons-text">Navicat</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <div style={{ fontSize: "1.6rem", fontWeight: 700, lineHeight: "1.6rem" }}>
+          W
+        </div>
+        <div className="tech-icons-text">Warp</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <div style={{ fontSize: "1.6rem", fontWeight: 700, lineHeight: "1.6rem" }}>
+          AI
+        </div>
+        <div className="tech-icons-text">ChatGPT</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <div style={{ fontSize: "1.6rem", fontWeight: 700, lineHeight: "1.6rem" }}>
+          F
+        </div>
+        <div className="tech-icons-text">Figma</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <div style={{ fontSize: "1.6rem", fontWeight: 700, lineHeight: "1.6rem" }}>
+          H
+        </div>
+        <div className="tech-icons-text">HBuilderX</div>
+      </Col>
     </Row>
   );
 }
