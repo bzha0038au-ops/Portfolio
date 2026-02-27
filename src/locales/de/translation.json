@@ -1,0 +1,205 @@
+{
+  "navbar": {
+    "home": "Startseite",
+    "about": "Über mich",
+    "email": "E-Mail",
+    "projects": "Projekte",
+    "whatsapp": "WhatsApp",
+    "language": "Sprache",
+    "chooseLanguage": "Sprache wählen",
+    "languages": {
+      "en": "Englisch",
+      "zh": "Chinesisch",
+      "de": "Deutsch",
+      "fr": "Französisch",
+      "ar": "Arabisch",
+      "ru": "Russisch",
+      "hi": "Hindi"
+    }
+  },
+  "common": {
+    "actions": {
+      "blog": "Blog",
+      "github": "GitHub",
+      "demo": "Demo",
+      "copy": "Kopieren",
+      "copied": "Kopiert!",
+      "sendEmail": "E-Mail senden",
+      "openWhatsapp": "WhatsApp öffnen"
+    }
+  },
+  "home": {
+    "greeting": "Hallo!",
+    "im": "ICH BIN",
+    "heroAlt": "Startseiten-Illustration",
+    "findMeOn": "Finde mich auf",
+    "connectPrefix": "Du kannst dich gern",
+    "connectHighlight": "mit mir verbinden",
+    "connectSuffix": "",
+    "roles": {
+      "role1": "Masterstudent der Informatik",
+      "role2": "KI-Enthusiast",
+      "role3": "Full-Stack-Entwickler",
+      "role4": "Lebenslanger Lerner"
+    }
+  },
+  "home2": {
+    "titlePrefix": "LASS MICH",
+    "titleHighlight": "MICH",
+    "titleSuffix": "VORSTELLEN",
+    "avatarAlt": "Profilbild",
+    "body": {
+      "p1": "Ich bin Informatikstudent und Softwareentwickler und setze Ideen gern in zuverlässige, skalierbare Produkte um.",
+      "p2": "Ich arbeite mit PHP, Go, Python, React Native, Vue, Node.js, UniApp und H5 und entwickle sowohl Backend als auch Frontend.",
+      "p3": "Meine Schwerpunkte sind Webanwendungen, Blockchain-Lösungen und praktische Brücken zwischen On-Chain- und Off-Chain-Systemen.",
+      "p4": "Wenn möglich, entwickle ich besonders gern mit PHP und modernen Frameworks wie Vue."
+    }
+  },
+  "about": {
+    "headingPrefix": "Erfahre,",
+    "headingHighlight": "wer ich bin",
+    "imageAlt": "Über-mich-Illustration",
+    "skillsetPrefix": "Professionelles",
+    "skillsetHighlight": "Skillset",
+    "toolsPrefix": "Tools",
+    "toolsSuffix": "die ich nutze",
+    "githubTitlePrefix": "Tage, an denen ich",
+    "githubTitleHighlight": "Code schreibe",
+    "card": {
+      "line1": "Hallo zusammen! Ich bin Beile Zhang und lebe derzeit in Annandale, Sydney.",
+      "line2": "Geboren wurde ich am 1. Mai 2002.",
+      "line3": "Aktuell studiere ich Master of Computer Science (Advanced Entry) an der University of Sydney (2026–2028).",
+      "line4": "Zuvor habe ich einen Bachelor of Science in Computer Science an der Durham University (College of St Hild & St Bede) abgeschlossen und am 3. Juli 2024 mit Class II Division 1 (Honours) sowie einer KI-orientierten Abschlussarbeit graduiert.",
+      "hobbiesIntro": "Außerhalb des Codens mag ich Aktivitäten, die mich kreativ und inspiriert halten:",
+      "activities": {
+        "workout": "Training 💪",
+        "music": "Musik hören 🎵",
+        "travel": "Reisen 🌍"
+      },
+      "quote": "Weiter lernen, weiter bauen, weiter verbessern!",
+      "author": "Beile Zhang"
+    },
+    "techstack": {
+      "items": {
+        "javascript": "JavaScript",
+        "typescript": "TypeScript",
+        "go": "Go",
+        "nodejs": "Node.js",
+        "reactjs": "React.js",
+        "vue": "Vue",
+        "uniapp": "UniApp",
+        "mysql": "MySQL",
+        "git": "Git",
+        "redis": "Redis",
+        "postgresql": "PostgreSQL",
+        "python": "Python",
+        "php": "PHP",
+        "postman": "Postman",
+        "aws": "AWS",
+        "nginx": "Nginx"
+      }
+    },
+    "toolstack": {
+      "items": {
+        "macos": "Mac OS",
+        "chrome": "Google Chrome",
+        "vscode": "VS Code",
+        "intellij": "IntelliJ",
+        "windows": "Windows",
+        "edge": "Microsoft Edge",
+        "cursor": "Cursor",
+        "codex": "Codex",
+        "navicat": "Navicat",
+        "warp": "Warp",
+        "chatgpt": "ChatGPT",
+        "figma": "Figma",
+        "hbuilderx": "HBuilderX"
+      }
+    }
+  },
+  "projects": {
+  "headingPrefix": "Meine neuesten",
+  "headingHighlight": "Arbeiten",
+  "subtitle": "Hier sind einige Projekte, an denen ich von 2025 bis 2026 gearbeitet habe.",
+    "privacyNotice": "Aufgrund strenger Datenschutzanforderungen des Kunden kann dieser Inhalt nicht gezeigt werden.",
+    "cardImageAlt": "Projektvorschau",
+    "tip": {
+      "title": "Zusätzliche Erfahrung im Jahr 2025",
+      "intro": "Im Jahr 2025 war ich an CDN-bezogenen Deployments beteiligt:",
+      "items": {
+        "item1": "Server-Instanzen eigenständig bereitgestellt",
+        "item2": "Dedizierte Nodes installiert",
+        "item3": "Netzwerkpfade und Bandbreite getestet",
+        "item4": "Video-Download- und Rendering-Performance getestet",
+        "item5": "Leitungsstabilität und Latenz optimiert"
+      },
+      "summary": "Dabei habe ich praktische Erfahrung in Serverbereitstellung und Netzwerk-Performance-Optimierung gesammelt."
+    },
+    "items": {
+      "chatify": {
+        "title": "CTF-Demo – 2026",
+        "description": "Ein automatisiertes AI-Red-Teaming- und CTF-Experiment mit geskripteten Dialogen in Codex. Ziel ist promptairlines.com, inklusive Umgehung von Frontend-Beschränkungen auf API-Ebene, automatischer Analyse des Systemverhaltens und vollständigem Logging aller Interaktionen – mit 100 % Erfolgsquote in der Testumgebung."
+      },
+      "bitsOfCode": {
+        "title": "Telebot & CMS-System – 2026",
+        "description": "Ein performantes, schlankes Bot- und Admin-CMS-System: Backend mit ThinkPHP, Bot-Schicht mit Node.js auf Ubuntu und MySQL. Enthält Benutzerverwaltung, Systembenachrichtigungen, automatische Provisionsabrechnung, Aufgabenverwaltung sowie Auflade- und Auszahlungsprozesse und wurde modular aufgebaut und auf ca. 40 MB Codebasis optimiert – inklusive praktischer CDN-Deployment- und Performance-Erfahrungen aus 2025."
+      },
+      "editorIo": {
+        "title": "Freetrade-Hommage – 2026",
+        "description": "Ein mit Vue umgesetztes, minimalistisches Landingpage-Demo, das sich am britischen Aktien-Tradingdienst Freetrade orientiert. Im Fokus stehen komponentenbasierte Architektur, responsives Layout und Informationshierarchie für Finanzprodukte."
+      },
+      "plantAi": {
+        "title": "Cross-Border-E-Commerce-App – 2025",
+        "description": "Ein Remote-Weiterentwicklungsprojekt, bei dem ich als Full-Stack-Entwickler mitgewirkt habe. Das Frontend basiert auf React Native + Expo mit einer gemeinsamen Codebasis für Web, Android und iOS, während das Backend auf einem kundeneigenen Stack (Go oder Java) läuft. Ich habe die Frontend-Architektur refaktoriert, plattformübergreifende Kompatibilität verbessert und State-Management sowie API-Aufrufe optimiert."
+      },
+      "aiForSocialGood": {
+        "title": "ETHFI DApp – 2025",
+        "description": "Eine gemeinsam entwickelte On-Chain-Anwendung, bei der ich das Vue-3-Frontend verantwortet und mit einem Go-Backend-Team zusammengearbeitet habe. Ich habe WebView-Kompatibilitätsprobleme gelöst, Wallet-APIs integriert, DApp-Interaktionslogik implementiert und das UI eigenständig gestaltet."
+      },
+      "faceEmotion": {
+        "title": "Altersvorsorge- und Finanzplattform – 2025",
+        "description": "Eine kompakte Plattform für Altersvorsorgeprodukte, deren Backoffice ich allein in 15 Tagen umgesetzt habe. Das Backend nutzt Workerman, das Frontend UniApp und umfasst Module für Käufe, Ein- und Auszahlungen, Check-ins, News/Ankündigungen, Formulare und zeitlich begrenzte Aktionen – gebaut unter strengen Anforderungen an die Vertraulichkeit der Kundendaten."
+      }
+    }
+  },
+  "email": {
+    "headingHighlight": "E-Mail",
+    "headingSuffix": "Kontakte",
+    "subtitle": "Du kannst mich über meine Uni- oder persönliche E-Mail erreichen.",
+    "schoolTitle": "Uni-E-Mail",
+    "personalTitle": "Private E-Mail",
+    "schoolPurposePrefix": "Am besten für",
+    "schoolPurposeHighlight": "universitäre Anfragen",
+    "schoolPurposeSuffix": "Kursdiskussionen und akademische Zusammenarbeit.",
+    "personalPurposePrefix": "Am besten für",
+    "personalPurposeHighlight": "persönliche Projekte",
+    "personalPurposeSuffix": "Networking und lockere Gespräche.",
+    "languageLinePrefix": "Du kannst mir auf",
+    "languageLineEnglish": "Englisch",
+    "languageLineMiddle": "oder",
+    "languageLineChinese": "Chinesisch",
+    "replyPrefix": "Ich antworte normalerweise innerhalb von",
+    "replyHighlight": "1–2 Werktagen",
+    "replySuffix": "abhängig von meinem Studienplan.",
+    "tipsTitle": "Kurze Tipps",
+    "tipsIntro": "Damit ich schneller antworten kann, füge bitte Folgendes hinzu:",
+    "tip1Prefix": "Einen klaren",
+    "tip1Highlight": "Betreff",
+    "tip1Suffix": "(z. B. \"Projektkooperation\", \"Praktikum\", \"Kursfrage\")",
+    "tip2Prefix": "Deinen",
+    "tip2Highlight": "Namen",
+    "tip2Suffix": "und eine kurze Vorstellung",
+    "tip3Prefix": "Relevante",
+    "tip3Highlight": "Links",
+    "tip3Suffix": "(GitHub, Demo, Doku)",
+    "preferMessagingPrefix": "Du bevorzugst Nachrichten? Du erreichst mich auch über",
+    "preferMessagingHighlight": "WhatsApp"
+  },
+  "footer": {
+    "designedBy": "Entworfen und entwickelt von Beile Zhang",
+    "copyright": "Urheberrecht © {{year}} BZ"
+  },
+  "resume": {
+    "unavailable": "Der Lebenslauf ist vorübergehend nicht verfügbar."
+  }
+}

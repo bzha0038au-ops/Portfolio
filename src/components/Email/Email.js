@@ -1,11 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
+import { useTranslation } from "react-i18next";
 import Particle from "../Particle";
 
 function Email() {
-  const handleCopy = (text) => {
+  const { t } = useTranslation();
+  const [copiedKey, setCopiedKey] = useState("");
+
+  const handleCopy = (key, text) => {
     if (navigator && navigator.clipboard && navigator.clipboard.writeText) {
       navigator.clipboard.writeText(text);
+      setCopiedKey(key);
+      setTimeout(() => setCopiedKey(""), 2000);
     }
   };
 
@@ -16,37 +22,39 @@ function Email() {
         <Row style={{ justifyContent: "center", padding: "10px" }}>
           <Col md={8} style={{ textAlign: "center", paddingBottom: "30px" }}>
             <h1 className="project-heading">
-              <strong className="purple">Email</strong> Contacts
+              <strong className="purple">{t("email.headingHighlight")}</strong>{" "}
+              {t("email.headingSuffix")}
             </h1>
-            <p style={{ color: "white" }}>
-              Feel free to reach out to me via my school or personal email.
-            </p>
+            <p style={{ color: "white" }}>{t("email.subtitle")}</p>
           </Col>
         </Row>
         <Row style={{ justifyContent: "center" }}>
           <Col md={5} className="project-card">
             <Card className="project-card-view">
               <Card.Body>
-                <Card.Title>School Email</Card.Title>
+                <Card.Title>{t("email.schoolTitle")}</Card.Title>
                 <Card.Text>
                   <span className="purple">bzha0038@uni.sydney.edu.au</span>
                 </Card.Text>
                 <Button
                   variant="primary"
-                  onClick={() => handleCopy("bzha0038@uni.sydney.edu.au")}
+                  onClick={() => handleCopy("school", "bzha0038@uni.sydney.edu.au")}
                   style={{ marginRight: "10px" }}
                 >
-                  Copy
+                  {copiedKey === "school"
+                    ? t("common.actions.copied")
+                    : t("common.actions.copy")}
                 </Button>
                 <Button
                   variant="outline-light"
                   href="mailto:bzha0038@uni.sydney.edu.au"
                 >
-                  Send Email
+                  {t("common.actions.sendEmail")}
                 </Button>
                 <Card.Text style={{ marginTop: "15px", fontSize: "0.9rem" }}>
-                  Best for <span className="purple">university enquiries</span>,
-                  course discussions and academic collaboration.
+                  {t("email.schoolPurposePrefix")}{" "}
+                  <span className="purple">{t("email.schoolPurposeHighlight")}</span>,{" "}
+                  {t("email.schoolPurposeSuffix")}
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -54,26 +62,28 @@ function Email() {
           <Col md={5} className="project-card">
             <Card className="project-card-view">
               <Card.Body>
-                <Card.Title>Personal Email</Card.Title>
+                <Card.Title>{t("email.personalTitle")}</Card.Title>
                 <Card.Text>
                   <span className="purple">cheunggrr@icloud.com</span>
                 </Card.Text>
                 <Button
                   variant="primary"
-                  onClick={() => handleCopy("cheunggrr@icloud.com")}
+                  onClick={() => handleCopy("personal", "cheunggrr@icloud.com")}
                   style={{ marginRight: "10px" }}
                 >
-                  Copy
+                  {copiedKey === "personal"
+                    ? t("common.actions.copied")
+                    : t("common.actions.copy")}
                 </Button>
-                <Button
-                  variant="outline-light"
-                  href="mailto:cheunggrr@icloud.com"
-                >
-                  Send Email
+                <Button variant="outline-light" href="mailto:cheunggrr@icloud.com">
+                  {t("common.actions.sendEmail")}
                 </Button>
                 <Card.Text style={{ marginTop: "15px", fontSize: "0.9rem" }}>
-                  Best for <span className="purple">personal projects</span>,
-                  networking and casual conversations.
+                  {t("email.personalPurposePrefix")}{" "}
+                  <span className="purple">
+                    {t("email.personalPurposeHighlight")}
+                  </span>
+                  , {t("email.personalPurposeSuffix")}
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -82,13 +92,15 @@ function Email() {
         <Row style={{ justifyContent: "center", marginTop: "20px" }}>
           <Col md={8} style={{ textAlign: "center", color: "white" }}>
             <p style={{ marginBottom: "5px" }}>
-              You can write to me in <span className="purple">English</span> or{" "}
-              <span className="purple">Chinese</span>.
+              {t("email.languageLinePrefix")}{" "}
+              <span className="purple">{t("email.languageLineEnglish")}</span>{" "}
+              {t("email.languageLineMiddle")}{" "}
+              <span className="purple">{t("email.languageLineChinese")}</span>.
             </p>
             <p style={{ fontSize: "0.9rem", opacity: 0.8 }}>
-              I usually reply within{" "}
-              <span className="purple">1–2 business days</span>, depending on my
-              study schedule.
+              {t("email.replyPrefix")}{" "}
+              <span className="purple">{t("email.replyHighlight")}</span>,{" "}
+              {t("email.replySuffix")}
             </p>
           </Col>
         </Row>
@@ -97,27 +109,34 @@ function Email() {
           <Col md={10} className="project-card">
             <Card className="project-card-view">
               <Card.Body>
-                <Card.Title>Quick Tips</Card.Title>
+                <Card.Title>{t("email.tipsTitle")}</Card.Title>
                 <Card.Text style={{ fontSize: "0.95rem", opacity: 0.95 }}>
-                  To help me respond faster, please include:
+                  {t("email.tipsIntro")}
                 </Card.Text>
                 <ul style={{ textAlign: "left", margin: "0 auto", maxWidth: 720 }}>
                   <li>
-                    A clear <span className="purple">subject</span> (e.g. “Project
-                    Collaboration”, “Internship”, “Course Question”)
+                    {t("email.tip1Prefix")}{" "}
+                    <span className="purple">{t("email.tip1Highlight")}</span>{" "}
+                    {t("email.tip1Suffix")}
                   </li>
                   <li>
-                    Your <span className="purple">name</span> and a short intro
+                    {t("email.tip2Prefix")}{" "}
+                    <span className="purple">{t("email.tip2Highlight")}</span>{" "}
+                    {t("email.tip2Suffix")}
                   </li>
                   <li>
-                    Any relevant <span className="purple">links</span> (GitHub,
-                    demo, docs)
+                    {t("email.tip3Prefix")}{" "}
+                    <span className="purple">{t("email.tip3Highlight")}</span>{" "}
+                    {t("email.tip3Suffix")}
                   </li>
                 </ul>
 
-                <Card.Text style={{ marginTop: "15px", fontSize: "0.9rem", opacity: 0.85 }}>
-                  Prefer messaging? You can also reach me on{" "}
-                  <span className="purple">WhatsApp</span>.
+                <Card.Text
+                  style={{ marginTop: "15px", fontSize: "0.9rem", opacity: 0.85 }}
+                >
+                  {t("email.preferMessagingPrefix")}{" "}
+                  <span className="purple">{t("email.preferMessagingHighlight")}</span>
+                  .
                 </Card.Text>
                 <Button
                   variant="outline-light"
@@ -125,7 +144,7 @@ function Email() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Open WhatsApp
+                  {t("common.actions.openWhatsapp")}
                 </Button>
               </Card.Body>
             </Card>
@@ -137,4 +156,3 @@ function Email() {
 }
 
 export default Email;
-

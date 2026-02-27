@@ -1,0 +1,205 @@
+{
+  "navbar": {
+    "home": "الرئيسية",
+    "about": "نبذة عني",
+    "email": "البريد الإلكتروني",
+    "projects": "المشاريع",
+    "whatsapp": "واتساب",
+    "language": "اللغة",
+    "chooseLanguage": "اختر اللغة",
+    "languages": {
+      "en": "الإنجليزية",
+      "zh": "الصينية",
+      "de": "الألمانية",
+      "fr": "الفرنسية",
+      "ar": "العربية",
+      "ru": "الروسية",
+      "hi": "الهندية"
+    }
+  },
+  "common": {
+    "actions": {
+      "blog": "مدونة",
+      "github": "GitHub",
+      "demo": "عرض",
+      "copy": "نسخ",
+      "copied": "تم النسخ!",
+      "sendEmail": "إرسال بريد",
+      "openWhatsapp": "فتح واتساب"
+    }
+  },
+  "home": {
+    "greeting": "مرحباً!",
+    "im": "أنا",
+    "heroAlt": "صورة الصفحة الرئيسية",
+    "findMeOn": "يمكنك العثور علي في",
+    "connectPrefix": "لا تتردد في",
+    "connectHighlight": "التواصل",
+    "connectSuffix": "معي",
+    "roles": {
+      "role1": "طالب ماجستير علوم الحاسوب",
+      "role2": "مهتم بالذكاء الاصطناعي",
+      "role3": "مطوّر Full-Stack",
+      "role4": "متعلم مدى الحياة"
+    }
+  },
+  "home2": {
+    "titlePrefix": "دعني",
+    "titleHighlight": "أعرّفك",
+    "titleSuffix": "بنفسي",
+    "avatarAlt": "الصورة الشخصية",
+    "body": {
+      "p1": "أنا طالب علوم حاسوب ومهندس برمجيات أحب تحويل الأفكار إلى منتجات موثوقة وقابلة للتوسع.",
+      "p2": "أجيد PHP وGo وPython وReact Native وVue وNode.js وUniApp وH5، وأستمتع بالعمل على الواجهة والخلفية.",
+      "p3": "اهتماماتي الأساسية تشمل تطبيقات الويب، وحلول البلوك تشين، وبناء جسور عملية بين الأنظمة على السلسلة وخارجها.",
+      "p4": "كلما أمكن، أحب بناء المشاريع باستخدام PHP وأطر حديثة مثل Vue."
+    }
+  },
+  "about": {
+    "headingPrefix": "تعرف على",
+    "headingHighlight": "من أكون",
+    "imageAlt": "صورة نبذة عني",
+    "skillsetPrefix": "المهارات",
+    "skillsetHighlight": "الاحترافية",
+    "toolsPrefix": "الأدوات",
+    "toolsSuffix": "التي أستخدمها",
+    "githubTitlePrefix": "الأيام التي",
+    "githubTitleHighlight": "أبرمج فيها",
+    "card": {
+      "line1": "مرحباً جميعاً! أنا Beile Zhang، وأقيم حالياً في أنانديل، سيدني.",
+      "line2": "تاريخ ميلادي 1 مايو 2002.",
+      "line3": "أتابع حالياً ماجستير علوم الحاسوب (Advanced Entry) في جامعة سيدني (2026–2028).",
+      "line4": "سابقاً، أنهيت بكالوريوس علوم الحاسوب في جامعة دورهام (College of St Hild & St Bede)، وتخرجت في 3 يوليو 2024 بدرجة Class II Division 1 (Honours) مع أطروحة تركيزها الذكاء الاصطناعي.",
+      "hobbiesIntro": "خارج البرمجة، أحب أنشطة تبقيني مبدعاً ومتحفزاً:",
+      "activities": {
+        "workout": "التمرين 💪",
+        "music": "الاستماع إلى الموسيقى 🎵",
+        "travel": "السفر 🌍"
+      },
+      "quote": "استمر في التعلم، واستمر في البناء، واستمر في التطور!",
+      "author": "Beile Zhang"
+    },
+    "techstack": {
+      "items": {
+        "javascript": "JavaScript",
+        "typescript": "TypeScript",
+        "go": "Go",
+        "nodejs": "Node.js",
+        "reactjs": "React.js",
+        "vue": "Vue",
+        "uniapp": "UniApp",
+        "mysql": "MySQL",
+        "git": "Git",
+        "redis": "Redis",
+        "postgresql": "PostgreSQL",
+        "python": "Python",
+        "php": "PHP",
+        "postman": "Postman",
+        "aws": "AWS",
+        "nginx": "Nginx"
+      }
+    },
+    "toolstack": {
+      "items": {
+        "macos": "Mac OS",
+        "chrome": "Google Chrome",
+        "vscode": "VS Code",
+        "intellij": "IntelliJ",
+        "windows": "Windows",
+        "edge": "Microsoft Edge",
+        "cursor": "Cursor",
+        "codex": "Codex",
+        "navicat": "Navicat",
+        "warp": "Warp",
+        "chatgpt": "ChatGPT",
+        "figma": "Figma",
+        "hbuilderx": "HBuilderX"
+      }
+    }
+  },
+  "projects": {
+  "headingPrefix": "أحدث",
+  "headingHighlight": "أعمالي",
+  "subtitle": "إليك بعض المشاريع التي عملت عليها بين عامي 2025 و2026.",
+    "privacyNotice": "بسبب متطلبات الخصوصية الصارمة من العميل، لا يمكن عرض هذا المحتوى.",
+    "cardImageAlt": "معاينة المشروع",
+    "tip": {
+      "title": "خبرة إضافية في عام 2025",
+      "intro": "خلال عام 2025 شاركت في أعمال نشر مرتبطة بـ CDN:",
+      "items": {
+        "item1": "نشر مثيلات الخوادم بشكل مستقل",
+        "item2": "تركيب عقد مخصصة",
+        "item3": "اختبار مسارات الشبكة وقياس عرض النطاق",
+        "item4": "اختبار تنزيل الفيديو وأداء العرض",
+        "item5": "تحسين استقرار المسارات وتقليل زمن التأخير"
+      },
+      "summary": "اكتسبت خبرة عملية في نشر الخوادم وتحسين أداء الشبكات."
+    },
+    "items": {
+      "chatify": {
+        "title": "مشروع CTF Demo – 2026",
+        "description": "مشروع تجريبي لهجمات CTF واختبار أمان أنظمة الذكاء الاصطناعي بشكل آلي، يعتمد على سكربتات حوار مكتوبة في Codex. يستهدف موقع promptairlines.com، ويتجاوز قيود الواجهة الأمامية للتواصل مباشرة مع واجهات الخلفية، ويحلل سلوك النظام ويُسجّل جميع الجلسات، مع تحقيق نسبة نجاح 100٪ في بيئة الاختبار."
+      },
+      "bitsOfCode": {
+        "title": "نظام Telebot وCMS – 2026",
+        "description": "نظام خفيف وعالي الأداء يجمع بين بوت ومنصة إدارة خلفية: الخلفية مبنية بـ ThinkPHP، طبقة البوت بـ Node.js على خادم Ubuntu وقاعدة بيانات MySQL. يتضمن إدارة المستخدمين، الإشعارات، تسوية العمولات تلقائياً، نشر المهام وإدارة الإيداع والسحب، مع بنية معيارية تم تحسينها إلى نحو 40 ميغابايت، بالإضافة إلى خبرة عملية في نشر وتحسين أداء شبيه بـ CDN في عام 2025."
+      },
+      "editorIo": {
+        "title": "مشروع مستوحى من Freetrade – 2026",
+        "description": "موقع تعريفي بسيط مبني بـ Vue مستوحى من منصة التداول البريطانية Freetrade، يركّز على هيكلية الواجهة المعتمدة على المكوّنات، وتصميم متجاوب، وتجربة مستخدم مناسبة لمنتجات مالية."
+      },
+      "plantAi": {
+        "title": "منصّة تجارة إلكترونية عابرة للحدود – 2025",
+        "description": "مشروع تطوير ثانٍ عن بُعد شاركت فيه كمطوّر Full-Stack. الواجهة الأمامية تعتمد على React Native وExpo لدعم الويب وأندرويد وiOS من نفس قاعدة الشيفرة، والخلفية مبنية على تقنية خاصة بالعميل (Go أو Java). قمت بإعادة هيكلة الواجهة، وحل مشاكل التوافق بين المنصّات، وتحسين إدارة الحالة واستدعاء الـ APIs."
+      },
+      "aiForSocialGood": {
+        "title": "تطبيق ETHFI اللامركزي – 2025",
+        "description": "تطبيق بلوكتشين تشاركي قمت فيه بتولّي تطوير الواجهة الأمامية باستخدام Vue 3 بالتعاون مع فريق خلفية بـ Go. عملت على حل مشاكل توافق WebView، ودمج محافظ التشفير، وبناء منطق تفاعلات DApp، مع تصميم واجهة المستخدم بالكامل."
+      },
+      "faceEmotion": {
+        "title": "منصّة ادّخار تقاعدي – 2025",
+        "description": "منصّة خلفية لإدارة منتجات ادخار وتقاعد، أنجزتها بشكل مستقل خلال 15 يوماً. تعتمد على Workerman في الخلفية وUniApp في الواجهة الأمامية، وتضم أنظمة للشراء، الإيداع والسحب، تسجيل الحضور اليومي، الأخبار والإعلانات، النماذج، والعروض المحدودة زمنياً، مع التزام تام بمتطلبات الخصوصية الصارمة للعميل."
+      }
+    }
+  },
+  "email": {
+    "headingHighlight": "البريد",
+    "headingSuffix": "وسائل التواصل",
+    "subtitle": "يمكنك التواصل معي عبر البريد الجامعي أو الشخصي.",
+    "schoolTitle": "البريد الجامعي",
+    "personalTitle": "البريد الشخصي",
+    "schoolPurposePrefix": "مناسب لـ",
+    "schoolPurposeHighlight": "استفسارات الجامعة",
+    "schoolPurposeSuffix": "ونقاشات المقررات والتعاون الأكاديمي.",
+    "personalPurposePrefix": "مناسب لـ",
+    "personalPurposeHighlight": "المشاريع الشخصية",
+    "personalPurposeSuffix": "وبناء العلاقات والمحادثات العامة.",
+    "languageLinePrefix": "يمكنك مراسلتي بال",
+    "languageLineEnglish": "إنجليزية",
+    "languageLineMiddle": "أو",
+    "languageLineChinese": "الصينية",
+    "replyPrefix": "عادةً أرد خلال",
+    "replyHighlight": "1–2 يوم عمل",
+    "replySuffix": "حسب جدول الدراسة لدي.",
+    "tipsTitle": "نصائح سريعة",
+    "tipsIntro": "لمساعدتي على الرد بسرعة، يُفضل أن تتضمن رسالتك:",
+    "tip1Prefix": "",
+    "tip1Highlight": "موضوعاً",
+    "tip1Suffix": "واضحاً (مثل: \"تعاون مشروع\"، \"تدريب\"، \"سؤال مقرر\")",
+    "tip2Prefix": "",
+    "tip2Highlight": "اسمك",
+    "tip2Suffix": "ومقدمة قصيرة",
+    "tip3Prefix": "",
+    "tip3Highlight": "روابط",
+    "tip3Suffix": "ذات صلة (GitHub، عرض، توثيق)",
+    "preferMessagingPrefix": "تفضّل المراسلة السريعة؟ يمكنك أيضاً التواصل عبر",
+    "preferMessagingHighlight": "واتساب"
+  },
+  "footer": {
+    "designedBy": "تم التصميم والتطوير بواسطة Beile Zhang",
+    "copyright": "حقوق النشر © {{year}} BZ"
+  },
+  "resume": {
+    "unavailable": "السيرة الذاتية غير متاحة مؤقتاً."
+  }
+}

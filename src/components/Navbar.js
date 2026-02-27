@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import logo from "../Assets/logo.png";
 import Button from "react-bootstrap/Button";
+import NavDropdown from "react-bootstrap/NavDropdown";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
 import { ImWhatsapp } from "react-icons/im";
@@ -13,22 +13,31 @@ import {
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
-
-import { CgFileDocument } from "react-icons/cg";
+import { useTranslation } from "react-i18next";
+import { supportedLanguages } from "../i18n";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
+  const { t, i18n } = useTranslation();
 
-  function scrollHandler() {
-    if (window.scrollY >= 20) {
-      updateNavbar(true);
-    } else {
-      updateNavbar(false);
-    }
-  }
+  useEffect(() => {
+    const scrollHandler = () => {
+      updateNavbar(window.scrollY >= 20);
+    };
 
-  window.addEventListener("scroll", scrollHandler);
+    window.addEventListener("scroll", scrollHandler);
+    return () => window.removeEventListener("scroll", scrollHandler);
+  }, []);
+
+  const currentLanguage = supportedLanguages.includes(i18n.resolvedLanguage)
+    ? i18n.resolvedLanguage
+    : "en";
+
+  const changeLanguage = (language) => {
+    i18n.changeLanguage(language);
+    updateExpanded(false);
+  };
 
   return (
     <Navbar
@@ -38,8 +47,25 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/" className="d-flex">
-          <span className="logo-text">Bz.</span>
+        <Navbar.Brand href="/" className="d-flex align-items-center">
+          <NavDropdown
+            title={`${t("navbar.language")}: ${t(
+              `navbar.languages.${currentLanguage}`
+            )}`}
+            id="language-nav-dropdown"
+            align="start"
+            aria-label={t("navbar.chooseLanguage")}
+          >
+            {supportedLanguages.map((language) => (
+              <NavDropdown.Item
+                key={language}
+                active={language === currentLanguage}
+                onClick={() => changeLanguage(language)}
+              >
+                {t(`navbar.languages.${language}`)}
+              </NavDropdown.Item>
+            ))}
+          </NavDropdown>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -55,7 +81,8 @@ function NavBar() {
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
+                <AiOutlineHome style={{ marginBottom: "2px" }} />{" "}
+                {t("navbar.home")}
               </Nav.Link>
             </Nav.Item>
 
@@ -65,7 +92,8 @@ function NavBar() {
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> About
+                <AiOutlineUser style={{ marginBottom: "2px" }} />{" "}
+                {t("navbar.about")}
               </Nav.Link>
             </Nav.Item>
 
@@ -75,7 +103,8 @@ function NavBar() {
                 to="/email"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> Email
+                <AiOutlineUser style={{ marginBottom: "2px" }} />{" "}
+                {t("navbar.email")}
               </Nav.Link>
             </Nav.Item>
 
@@ -88,7 +117,7 @@ function NavBar() {
                 <AiOutlineFundProjectionScreen
                   style={{ marginBottom: "2px" }}
                 />{" "}
-                Projects
+                {t("navbar.projects")}
               </Nav.Link>
             </Nav.Item>
 
@@ -100,7 +129,8 @@ function NavBar() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <ImWhatsapp style={{ marginBottom: "2px" }} /> WhatsApp
+                <ImWhatsapp style={{ marginBottom: "2px" }} />{" "}
+                {t("navbar.whatsapp")}
               </Nav.Link>
             </Nav.Item>
 

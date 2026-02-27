@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
+import { useTranslation } from "react-i18next";
 import Particle from "../Particle";
 
 function ResumeNew() {
+  const { t } = useTranslation();
   const [width, setWidth] = useState(1200);
 
   useEffect(() => {
@@ -22,7 +24,7 @@ function ResumeNew() {
             textAlign: "center",
           }}
         >
-          Resume is temporarily unavailable.
+          {t("resume.unavailable")}
         </Row>
       </Container>
     </div>

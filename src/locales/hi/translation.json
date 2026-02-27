@@ -1,0 +1,205 @@
+{
+  "navbar": {
+    "home": "होम",
+    "about": "मेरे बारे में",
+    "email": "ईमेल",
+    "projects": "प्रोजेक्ट्स",
+    "whatsapp": "व्हाट्सऐप",
+    "language": "भाषा",
+    "chooseLanguage": "भाषा चुनें",
+    "languages": {
+      "en": "अंग्रेज़ी",
+      "zh": "चीनी",
+      "de": "जर्मन",
+      "fr": "फ्रेंच",
+      "ar": "अरबी",
+      "ru": "रूसी",
+      "hi": "हिंदी"
+    }
+  },
+  "common": {
+    "actions": {
+      "blog": "ब्लॉग",
+      "github": "GitHub",
+      "demo": "डेमो",
+      "copy": "कॉपी",
+      "copied": "कॉपी हो गया!",
+      "sendEmail": "ईमेल भेजें",
+      "openWhatsapp": "व्हाट्सऐप खोलें"
+    }
+  },
+  "home": {
+    "greeting": "नमस्ते!",
+    "im": "मैं",
+    "heroAlt": "होम इलस्ट्रेशन",
+    "findMeOn": "मुझे यहाँ पाएँ",
+    "connectPrefix": "बेझिझक",
+    "connectHighlight": "कनेक्ट",
+    "connectSuffix": "करें",
+    "roles": {
+      "role1": "कंप्यूटर साइंस मास्टर्स छात्र",
+      "role2": "AI उत्साही",
+      "role3": "फुल-स्टैक डेवलपर",
+      "role4": "जीवनभर सीखने वाला"
+    }
+  },
+  "home2": {
+    "titlePrefix": "मुझे",
+    "titleHighlight": "अपना",
+    "titleSuffix": "परिचय देने दें",
+    "avatarAlt": "प्रोफाइल अवतार",
+    "body": {
+      "p1": "मैं कंप्यूटर साइंस का छात्र और सॉफ्टवेयर इंजीनियर हूँ, और विचारों को भरोसेमंद व स्केलेबल प्रोडक्ट्स में बदलना पसंद करता हूँ।",
+      "p2": "मैं PHP, Go, Python, React Native, Vue, Node.js, UniApp और H5 में काम करता हूँ, और बैकएंड व फ्रंटएंड दोनों पसंद हैं।",
+      "p3": "मेरी प्रमुख रुचियाँ वेब एप्लिकेशन, ब्लॉकचेन समाधान, और on-chain व off-chain सिस्टम्स के बीच व्यावहारिक इंटीग्रेशन हैं।",
+      "p4": "जहाँ संभव हो, मैं PHP और Vue जैसे आधुनिक फ्रेमवर्क्स के साथ प्रोजेक्ट बनाना पसंद करता हूँ।"
+    }
+  },
+  "about": {
+    "headingPrefix": "जानिए",
+    "headingHighlight": "मैं कौन हूँ",
+    "imageAlt": "अबाउट इलस्ट्रेशन",
+    "skillsetPrefix": "प्रोफेशनल",
+    "skillsetHighlight": "स्किलसेट",
+    "toolsPrefix": "वे टूल्स",
+    "toolsSuffix": "जो मैं उपयोग करता हूँ",
+    "githubTitlePrefix": "वे दिन जब मैं",
+    "githubTitleHighlight": "कोड करता हूँ",
+    "card": {
+      "line1": "सभी को नमस्ते! मैं Beile Zhang हूँ, और अभी Annandale, Sydney में रहता हूँ।",
+      "line2": "मेरा जन्म 1 मई 2002 को हुआ।",
+      "line3": "मैं वर्तमान में University of Sydney में Master of Computer Science (Advanced Entry) कर रहा हूँ (2026–2028)।",
+      "line4": "इससे पहले मैंने Durham University (College of St Hild & St Bede) से Computer Science में Bachelor of Science पूरा किया और 3 जुलाई 2024 को Class II Division 1 (Honours) के साथ, AI-केंद्रित डिसर्टेशन सहित स्नातक किया।",
+      "hobbiesIntro": "कोडिंग के अलावा, मुझे ऐसी गतिविधियाँ पसंद हैं जो मुझे रचनात्मक और प्रेरित रखती हैं:",
+      "activities": {
+        "workout": "वर्कआउट 💪",
+        "music": "संगीत सुनना 🎵",
+        "travel": "यात्रा 🌍"
+      },
+      "quote": "सीखते रहो, बनाते रहो, बेहतर बनते रहो!",
+      "author": "Beile Zhang"
+    },
+    "techstack": {
+      "items": {
+        "javascript": "JavaScript",
+        "typescript": "TypeScript",
+        "go": "Go",
+        "nodejs": "Node.js",
+        "reactjs": "React.js",
+        "vue": "Vue",
+        "uniapp": "UniApp",
+        "mysql": "MySQL",
+        "git": "Git",
+        "redis": "Redis",
+        "postgresql": "PostgreSQL",
+        "python": "Python",
+        "php": "PHP",
+        "postman": "Postman",
+        "aws": "AWS",
+        "nginx": "Nginx"
+      }
+    },
+    "toolstack": {
+      "items": {
+        "macos": "Mac OS",
+        "chrome": "Google Chrome",
+        "vscode": "VS Code",
+        "intellij": "IntelliJ",
+        "windows": "Windows",
+        "edge": "Microsoft Edge",
+        "cursor": "Cursor",
+        "codex": "Codex",
+        "navicat": "Navicat",
+        "warp": "Warp",
+        "chatgpt": "ChatGPT",
+        "figma": "Figma",
+        "hbuilderx": "HBuilderX"
+      }
+    }
+  },
+  "projects": {
+  "headingPrefix": "मेरे हाल के",
+  "headingHighlight": "काम",
+  "subtitle": "यहाँ कुछ प्रोजेक्ट्स हैं जिन पर मैंने 2025–2026 के बीच काम किया है।",
+    "privacyNotice": "क्लाइंट की सख्त प्राइवेसी आवश्यकताओं के कारण यह सामग्री प्रदर्शित नहीं की जा सकती।",
+    "cardImageAlt": "प्रोजेक्ट प्रीव्यू",
+    "tip": {
+      "title": "2025 का अतिरिक्त अनुभव",
+      "intro": "2025 के दौरान मैंने CDN से जुड़ी डिप्लॉयमेंट गतिविधियों में भाग लिया:",
+      "items": {
+        "item1": "सर्वर इंस्टेंस स्वतंत्र रूप से डिप्लॉय किए",
+        "item2": "डेडिकेटेड नोड्स इंस्टॉल किए",
+        "item3": "नेटवर्क लिंक और बैंडविड्थ टेस्ट किए",
+        "item4": "वीडियो डाउनलोड और रेंडरिंग परफॉर्मेंस टेस्ट किए",
+        "item5": "लाइन स्थिरता और लेटेंसी ऑप्टिमाइज़ की"
+      },
+      "summary": "इससे मुझे सर्वर डिप्लॉयमेंट और नेटवर्क परफॉर्मेंस ऑप्टिमाइज़ेशन का व्यावहारिक अनुभव मिला।"
+    },
+    "items": {
+      "chatify": {
+        "title": "CTF Demo – 2026",
+        "description": "AI रेड-टीमिंग और CTF टाइप एक्सपेरिमेंट, जिसमें Codex से लिखे गए ऑटोमेटेड डायलॉग स्क्रिप्ट्स हैं। यह promptairlines.com को टारगेट करता है, फ्रंटएंड लिमिट्स को बायपास करके सीधे backend APIs से बात करता है, सिस्टम बिहेवियर को अपने आप एनालाइज़ करता है और सभी लॉग्स सेव करता है, और टेस्ट एनवायरनमेंट में 100% पास रेट हासिल किया।"
+      },
+      "bitsOfCode": {
+        "title": "Telebot & CMS सिस्टम – 2026",
+        "description": "एक हाई-पर्फॉर्मेंस, लाइटवेट बॉट + एडमिन CMS सिस्टम: बैकएंड ThinkPHP, बॉट लेयर Node.js पर Ubuntu सर्वर और MySQL डेटाबेस। इसमें यूज़र मैनेजमेंट, सिस्टम नोटिफिकेशन, ऑटो कमीशन सेटलमेंट, टास्क पब्लिशिंग और रिचार्ज/विदड्रॉल मैनेजमेंट जैसे मॉड्यूल हैं, जिन्हें मॉड्यूलर स्ट्रक्चर और ~40MB कोडबेस तक ऑप्टिमाइज़ किया गया, साथ ही 2025 के CDN-जैसे डिप्लॉयमेंट और नेटवर्क ऑप्टिमाइज़ेशन का अनुभव भी शामिल है।"
+      },
+      "editorIo": {
+        "title": "Freetrade ट्रिब्यूट – 2026",
+        "description": "ब्रिटिश स्टॉक ट्रेडिंग प्लेटफ़ॉर्म Freetrade से इंस्पायर्ड एक सिंपल Vue-आधारित लैंडिंग पेज डेमो, जिसमें कंपोनेंट-बेस्ड आर्किटेक्चर, रिस्पॉन्सिव लेआउट और फिनटेक प्रोडक्ट्स के लिए इंफॉर्मेशन हायरार्की और UX पर फोकस है।"
+      },
+      "plantAi": {
+        "title": "क्रॉस-बॉर्डर ई-कॉमर्स साइट – 2025",
+        "description": "एक सेकेंड-फेज रिमोट प्रोजेक्ट जिसमें मैंने फुल-स्टैक डेवलपर के रूप में भाग लिया। फ्रंटएंड React Native + Expo से बना है ताकि Web/Android/iOS के लिए एक ही कोडबेस रहे, जबकि बैकएंड क्लाइंट के प्राइवेट स्टैक (Go या Java) पर है। मैंने फ्रंटएंड आर्किटेक्चर को रिफैक्टर किया, क्रॉस-प्लेटफ़ॉर्म कम्पैटिबिलिटी इश्यूज़ सॉल्व किए और स्टेट मैनेजमेंट व API लेयर को ऑप्टिमाइज़ किया।"
+      },
+      "aiForSocialGood": {
+        "title": "ETHFI DApp – 2025",
+        "description": "एक टीम-बेस्ड ऑन-चेन एप्लिकेशन जिसमें मैंने Vue 3 फ्रंटएंड संभाला और Go बैकएंड टीम के साथ काम किया। मैंने WebView कम्पैटिबिलिटी प्रॉब्लम्स हल किए, क्रिप्टो वॉलेट APIs इंटीग्रेट किए, DApp इंटरैक्शन लॉजिक इम्प्लीमेंट किया और UI डिज़ाइन भी खुद किया।"
+      },
+      "faceEmotion": {
+        "title": "रिटायरमेंट फाइनेंस प्लेटफ़ॉर्म – 2025",
+        "description": "एक छोटी पेंशन/वेल्थ मैनेजमेंट प्लेटफ़ॉर्म का बैकऑफिस सिस्टम, जिसे मैंने अकेले 15 दिनों में डिलीवर किया। बैकएंड Workerman पर, फ्रंटएंड UniApp पर बना है, और इसमें खरीद प्रणाली, रिचार्ज/विदड्रॉल, चेक-इन सिस्टम, न्यूज़/अनाउंसमेंट्स, फॉर्म सिस्टम और लिमिटेड-टाइम एक्टिविटीज़ जैसे मॉड्यूल शामिल हैं, सब कुछ क्लाइंट की स्ट्रिक्ट प्राइवेसी रिक्वायरमेंट्स के तहत।"
+      }
+    }
+  },
+  "email": {
+    "headingHighlight": "ईमेल",
+    "headingSuffix": "संपर्क",
+    "subtitle": "आप मुझे यूनिवर्सिटी या पर्सनल ईमेल के माध्यम से संपर्क कर सकते हैं।",
+    "schoolTitle": "यूनिवर्सिटी ईमेल",
+    "personalTitle": "पर्सनल ईमेल",
+    "schoolPurposePrefix": "सबसे उपयुक्त",
+    "schoolPurposeHighlight": "यूनिवर्सिटी पूछताछ",
+    "schoolPurposeSuffix": "कोर्स चर्चा और अकादमिक सहयोग के लिए।",
+    "personalPurposePrefix": "सबसे उपयुक्त",
+    "personalPurposeHighlight": "पर्सनल प्रोजेक्ट्स",
+    "personalPurposeSuffix": "नेटवर्किंग और सामान्य बातचीत के लिए।",
+    "languageLinePrefix": "आप मुझे",
+    "languageLineEnglish": "अंग्रेज़ी",
+    "languageLineMiddle": "या",
+    "languageLineChinese": "चीनी",
+    "replyPrefix": "में लिख सकते हैं। मैं सामान्यतः",
+    "replyHighlight": "1–2 कार्यदिवस",
+    "replySuffix": "में जवाब देता हूँ, पढ़ाई के शेड्यूल पर निर्भर।",
+    "tipsTitle": "त्वरित सुझाव",
+    "tipsIntro": "मुझे जल्दी जवाब देने में मदद के लिए कृपया शामिल करें:",
+    "tip1Prefix": "एक स्पष्ट",
+    "tip1Highlight": "विषय",
+    "tip1Suffix": "(जैसे \"Project Collaboration\", \"Internship\", \"Course Question\")",
+    "tip2Prefix": "अपना",
+    "tip2Highlight": "नाम",
+    "tip2Suffix": "और छोटा परिचय",
+    "tip3Prefix": "संबंधित",
+    "tip3Highlight": "लिंक्स",
+    "tip3Suffix": "(GitHub, demo, docs)",
+    "preferMessagingPrefix": "मैसेजिंग पसंद है? आप मुझसे",
+    "preferMessagingHighlight": "WhatsApp पर भी संपर्क कर सकते हैं"
+  },
+  "footer": {
+    "designedBy": "डिज़ाइन और डेवलपमेंट: Beile Zhang",
+    "copyright": "कॉपीराइट © {{year}} BZ"
+  },
+  "resume": {
+    "unavailable": "रिज़्यूमे फिलहाल उपलब्ध नहीं है।"
+  }
+}

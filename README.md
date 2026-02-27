@@ -1,85 +1,121 @@
 # Bill Portfolio
 
-个人作品集网站源码，基于 React 构建。
+Source code for my personal portfolio website (React + i18n).
 
-在线地址：[https://Bill.bzha0038.com](https://Bill.bzha0038.com)
+Live site: [https://Bill.bzha0038.com](https://Bill.bzha0038.com)
 
-## 项目简介
+## Overview
 
-这个仓库是我的个人主页，主要用于展示：
+This project is a personal website for showcasing:
 
-- 个人介绍
-- 技术栈与背景
-- 项目经历
-- 联系方式
+- Home introduction and social links
+- About page (background, skills, tools, GitHub contributions)
+- Projects page (project cards + experience tip section)
+- Contact page (email and response tips)
 
-## 页面结构
+## Current Features
 
-当前路由如下：
+- Multi-page routing (`/`, `/about`, `/project`, `/email`)
+- Language switcher with 7 languages:
+  - English (`en`)
+  - Chinese (`zh`)
+  - German (`de`)
+  - French (`fr`)
+  - Arabic (`ar`)
+  - Russian (`ru`)
+  - Hindi (`hi`)
+- Language preference persisted in `localStorage`
+- Automatic RTL support for Arabic
+- Privacy modal on selected project cards (GitHub/Demo clicks)
+- Responsive layout for desktop and mobile
 
-- `/`：主页
-- `/about`：关于我
-- `/project`：项目展示
-- `/email`：联系页面
-
-## 技术栈
+## Tech Stack
 
 - React 17
 - React Router 6
 - React Bootstrap + Bootstrap 5
-- CSS3
+- i18next + react-i18next
 - React Icons
-- Axios
+- react-github-calendar
+- CSS3
 
-## 本地运行
+## Local Development
 
-环境要求：
+Requirements:
 
-- Node.js
-- npm
+- Node.js 16+
+- npm 8+
 
-安装依赖：
+Install dependencies:
 
 ```bash
 npm install
 ```
 
-启动开发环境：
+Start development server:
 
 ```bash
 npm start
 ```
 
-默认访问：`http://localhost:3000`
+Default URL:
 
-## 构建生产版本
+- `http://localhost:3000`
+
+## Build and Checks
+
+Create a production build:
 
 ```bash
 npm run build
 ```
 
-构建产物位于 `build/` 目录。
-
-## 可定制位置
-
-你可以优先从这些文件开始修改：
-
-- `src/components/Home/`：首页内容
-- `src/components/About/`：关于页内容
-- `src/components/Projects/`：项目卡片与项目列表
-- `src/components/Email/Email.js`：联系页
-- `src/components/Navbar.js`：导航栏
-- `src/components/Footer.js`：页脚
-- `src/style.css`：全局样式
-
-## 常用脚本
+Validate i18n key consistency across locales:
 
 ```bash
-npm start    # 本地开发
-npm test     # 测试
-npm run build # 生产构建
+npm run i18n:check
 ```
 
-## 致谢
+## i18n Files
 
-向 [Soumyajit4419 Portfolio](https://github.com/soumyajit4419/Portfolio) 致敬。
+- `src/i18n.js`: i18n initialization and language behavior
+- `src/locales/en/translation.json`
+- `src/locales/zh/translation.json`
+- `src/locales/de/translation.json`
+- `src/locales/fr/translation.json`
+- `src/locales/ar/translation.json`
+- `src/locales/ru/translation.json`
+- `src/locales/hi/translation.json`
+
+## Project Structure
+
+- `src/components/Home/`: home page
+- `src/components/About/`: about page
+- `src/components/Projects/`: projects page
+- `src/components/Email/`: contact page
+- `src/components/Navbar.js`: top navigation + language switcher
+- `src/components/Footer.js`: footer
+- `src/style.css`: global styles and theme colors
+- `public/`: static assets (avatars, icons)
+
+## Common Customization Points
+
+- Personal profile and intro text:
+  - `src/locales/*/translation.json` -> `home`, `home2`, `about`
+- Project titles/descriptions:
+  - `src/locales/*/translation.json` -> `projects.items`
+- Project privacy modal message:
+  - `src/locales/*/translation.json` -> `projects.privacyNotice`
+- Contact page copy:
+  - `src/locales/*/translation.json` -> `email`
+- Theme colors:
+  - `src/style.css`
+
+## Maintenance Notes
+
+- The project is based on Create React App. Build logs may include upstream dependency warnings from CRA.
+- After adding or changing translation keys, run `npm run i18n:check` to ensure all locale files stay in sync.
+
+## Acknowledgement
+
+Credits to [Soumyajit4419 Portfolio](https://github.com/soumyajit4419/Portfolio).

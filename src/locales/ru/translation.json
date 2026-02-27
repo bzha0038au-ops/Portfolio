@@ -1,0 +1,205 @@
+{
+  "navbar": {
+    "home": "Главная",
+    "about": "Обо мне",
+    "email": "Почта",
+    "projects": "Проекты",
+    "whatsapp": "WhatsApp",
+    "language": "Язык",
+    "chooseLanguage": "Выбрать язык",
+    "languages": {
+      "en": "Английский",
+      "zh": "Китайский",
+      "de": "Немецкий",
+      "fr": "Французский",
+      "ar": "Арабский",
+      "ru": "Русский",
+      "hi": "Хинди"
+    }
+  },
+  "common": {
+    "actions": {
+      "blog": "Блог",
+      "github": "GitHub",
+      "demo": "Демо",
+      "copy": "Копировать",
+      "copied": "Скопировано!",
+      "sendEmail": "Отправить письмо",
+      "openWhatsapp": "Открыть WhatsApp"
+    }
+  },
+  "home": {
+    "greeting": "Привет!",
+    "im": "Я",
+    "heroAlt": "Иллюстрация главной страницы",
+    "findMeOn": "Найдите меня в",
+    "connectPrefix": "Не стесняйтесь",
+    "connectHighlight": "связаться",
+    "connectSuffix": "со мной",
+    "roles": {
+      "role1": "Магистрант по Computer Science",
+      "role2": "Энтузиаст ИИ",
+      "role3": "Full-Stack разработчик",
+      "role4": "Постоянно обучающийся"
+    }
+  },
+  "home2": {
+    "titlePrefix": "ПОЗВОЛЬТЕ",
+    "titleHighlight": "ПРЕДСТАВИТЬ",
+    "titleSuffix": "СЕБЯ",
+    "avatarAlt": "Аватар профиля",
+    "body": {
+      "p1": "Я студент Computer Science и инженер-программист, мне нравится превращать идеи в надежные и масштабируемые продукты.",
+      "p2": "Я работаю с PHP, Go, Python, React Native, Vue, Node.js, UniApp и H5, и мне одинаково интересны backend и frontend.",
+      "p3": "Мои ключевые интересы — веб-приложения, блокчейн-решения и практичные мосты между on-chain и off-chain системами.",
+      "p4": "По возможности я особенно люблю делать проекты на PHP и современных фреймворках, таких как Vue."
+    }
+  },
+  "about": {
+    "headingPrefix": "Узнайте",
+    "headingHighlight": "кто я",
+    "imageAlt": "Иллюстрация раздела обо мне",
+    "skillsetPrefix": "Профессиональный",
+    "skillsetHighlight": "стек навыков",
+    "toolsPrefix": "Инструменты",
+    "toolsSuffix": "которыми я пользуюсь",
+    "githubTitlePrefix": "Дни, когда я",
+    "githubTitleHighlight": "пишу код",
+    "card": {
+      "line1": "Всем привет! Я Beile Zhang, сейчас живу в Annandale, Sydney.",
+      "line2": "Я родился 1 мая 2002 года.",
+      "line3": "Сейчас я обучаюсь на Master of Computer Science (Advanced Entry) в University of Sydney (2026–2028).",
+      "line4": "Ранее я получил степень Bachelor of Science по Computer Science в Durham University (College of St Hild & St Bede), окончив 3 июля 2024 года с Class II Division 1 (Honours) и дипломной работой по ИИ.",
+      "hobbiesIntro": "Помимо программирования, мне нравятся занятия, которые помогают оставаться творческим и вдохновленным:",
+      "activities": {
+        "workout": "Тренировки 💪",
+        "music": "Слушать музыку 🎵",
+        "travel": "Путешествия 🌍"
+      },
+      "quote": "Продолжай учиться, продолжай создавать, продолжай улучшаться!",
+      "author": "Beile Zhang"
+    },
+    "techstack": {
+      "items": {
+        "javascript": "JavaScript",
+        "typescript": "TypeScript",
+        "go": "Go",
+        "nodejs": "Node.js",
+        "reactjs": "React.js",
+        "vue": "Vue",
+        "uniapp": "UniApp",
+        "mysql": "MySQL",
+        "git": "Git",
+        "redis": "Redis",
+        "postgresql": "PostgreSQL",
+        "python": "Python",
+        "php": "PHP",
+        "postman": "Postman",
+        "aws": "AWS",
+        "nginx": "Nginx"
+      }
+    },
+    "toolstack": {
+      "items": {
+        "macos": "Mac OS",
+        "chrome": "Google Chrome",
+        "vscode": "VS Code",
+        "intellij": "IntelliJ",
+        "windows": "Windows",
+        "edge": "Microsoft Edge",
+        "cursor": "Cursor",
+        "codex": "Codex",
+        "navicat": "Navicat",
+        "warp": "Warp",
+        "chatgpt": "ChatGPT",
+        "figma": "Figma",
+        "hbuilderx": "HBuilderX"
+      }
+    }
+  },
+  "projects": {
+  "headingPrefix": "Мои недавние",
+  "headingHighlight": "работы",
+  "subtitle": "Ниже несколько проектов, над которыми я работал в 2025–2026 годах.",
+    "privacyNotice": "Из-за строгих требований клиента к конфиденциальности этот контент недоступен для показа.",
+    "cardImageAlt": "Превью проекта",
+    "tip": {
+      "title": "Дополнительный опыт в 2025 году",
+      "intro": "В 2025 году я участвовал в работах по CDN-развертыванию:",
+      "items": {
+        "item1": "Самостоятельно разворачивал серверные инстансы",
+        "item2": "Устанавливал выделенные узлы",
+        "item3": "Проводил тесты сетевых маршрутов и пропускной способности",
+        "item4": "Тестировал скачивание видео и производительность рендеринга",
+        "item5": "Оптимизировал стабильность линий и задержку"
+      },
+      "summary": "Это дало мне практический опыт в развертывании серверов и оптимизации сетевой производительности."
+    },
+    "items": {
+      "chatify": {
+        "title": "CTF Demo – 2026",
+        "description": "Экспериментальный CTF‑проект по автоматизированному тестированию ИИ с использованием диалоговых скриптов в Codex. Нацелен на promptairlines.com, обходит ограничения фронтенда для прямой работы с backend‑API, автоматически анализирует поведение системы и полностью логирует сессии, достигнув 100 % успешности в тестовой среде."
+      },
+      "bitsOfCode": {
+        "title": "Telebot и CMS‑система – 2026",
+        "description": "Высокопроизводительный и лёгкий бот с административной панелью: backend на ThinkPHP, бот‑слой на Node.js под Ubuntu и база MySQL. Реализованы модули управления пользователями, системных уведомлений, автоматического расчёта комиссий, публикации заданий и управления пополнениями/выводами. Код организован модульно и оптимизирован примерно до 40 МБ, с учётом практического опыта CDN‑развёртывания и оптимизации сети в 2025 году."
+      },
+      "editorIo": {
+        "title": "Проект в стиле Freetrade – 2026",
+        "description": "Демо‑лендинг на Vue, вдохновлённый британской торговой платформой Freetrade. Сфокусирован на компонентной архитектуре, адаптивной вёрстке и продуманной информационной структуре для финтех‑продукта."
+      },
+      "plantAi": {
+        "title": "Кросс‑бордер e‑commerce — 2025",
+        "description": "Проект доработки, выполненный удалённо в роли full‑stack разработчика. Frontend реализован на React Native + Expo с единой кодовой базой для Web, Android и iOS, backend построен на приватном стеке заказчика (Go или Java). Я занимался рефакторингом фронтенд‑архитектуры, решением кроссплатформенных проблем и оптимизацией управления состоянием и API‑слоем."
+      },
+      "aiForSocialGood": {
+        "title": "ETHFI DApp – 2025",
+        "description": "Командный on‑chain‑проект, где я отвечал за фронтенд на Vue 3 в связке с backend‑командой на Go. Я решал проблемы совместимости WebView, интегрировал криптокошельки, реализовывал DApp‑логіку взаимодействия и самостоятельно разрабатывал UI."
+      },
+      "faceEmotion": {
+        "title": "Платформа пенсионных инвестиций – 2025",
+        "description": "Небольшая платформа для управления пенсионными и инвестиционными продуктами, backend которой я разработал и сдал в одиночку за 15 дней. Backend построен на Workerman, frontend — на UniApp; реализованы модули покупок, пополнений и выводов, системы签到/активности, новостей и объявлений, форм и ограниченных по времени акций, с жёсткими требованиями по конфиденциальности заказчика."
+      }
+    }
+  },
+  "email": {
+    "headingHighlight": "Почта",
+    "headingSuffix": "Контакты",
+    "subtitle": "Вы можете написать мне на университетскую или личную почту.",
+    "schoolTitle": "Университетская почта",
+    "personalTitle": "Личная почта",
+    "schoolPurposePrefix": "Лучше всего для",
+    "schoolPurposeHighlight": "университетских запросов",
+    "schoolPurposeSuffix": "обсуждения курсов и академического сотрудничества.",
+    "personalPurposePrefix": "Лучше всего для",
+    "personalPurposeHighlight": "личных проектов",
+    "personalPurposeSuffix": "нетворкинга и неформального общения.",
+    "languageLinePrefix": "Вы можете писать мне на",
+    "languageLineEnglish": "английском",
+    "languageLineMiddle": "или",
+    "languageLineChinese": "китайском",
+    "replyPrefix": "Обычно я отвечаю в течение",
+    "replyHighlight": "1–2 рабочих дней",
+    "replySuffix": "в зависимости от учебной нагрузки.",
+    "tipsTitle": "Быстрые советы",
+    "tipsIntro": "Чтобы я ответил быстрее, добавьте, пожалуйста:",
+    "tip1Prefix": "Понятную",
+    "tip1Highlight": "тему",
+    "tip1Suffix": "(например: \"Сотрудничество по проекту\", \"Стажировка\", \"Вопрос по курсу\")",
+    "tip2Prefix": "Ваше",
+    "tip2Highlight": "имя",
+    "tip2Suffix": "и короткое представление",
+    "tip3Prefix": "Актуальные",
+    "tip3Highlight": "ссылки",
+    "tip3Suffix": "(GitHub, демо, документация)",
+    "preferMessagingPrefix": "Предпочитаете мессенджеры? Вы также можете связаться со мной через",
+    "preferMessagingHighlight": "WhatsApp"
+  },
+  "footer": {
+    "designedBy": "Дизайн и разработка: Beile Zhang",
+    "copyright": "Авторские права © {{year}} BZ"
+  },
+  "resume": {
+    "unavailable": "Резюме временно недоступно."
+  }
+}

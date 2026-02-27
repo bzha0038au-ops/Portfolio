@@ -1,0 +1,205 @@
+{
+  "navbar": {
+    "home": "首页",
+    "about": "关于",
+    "email": "邮箱",
+    "projects": "项目",
+    "whatsapp": "WhatsApp",
+    "language": "语言",
+    "chooseLanguage": "选择语言",
+    "languages": {
+      "en": "英语",
+      "zh": "中文",
+      "de": "德语",
+      "fr": "法语",
+      "ar": "阿拉伯语",
+      "ru": "俄语",
+      "hi": "印地语"
+    }
+  },
+  "common": {
+    "actions": {
+      "blog": "博客",
+      "github": "GitHub",
+      "demo": "演示",
+      "copy": "复制",
+      "copied": "已复制！",
+      "sendEmail": "发送邮件",
+      "openWhatsapp": "打开 WhatsApp"
+    }
+  },
+  "home": {
+    "greeting": "你好！",
+    "im": "我是",
+    "heroAlt": "首页插图",
+    "findMeOn": "在这里找到我",
+    "connectPrefix": "欢迎",
+    "connectHighlight": "联系",
+    "connectSuffix": "我",
+    "roles": {
+      "role1": "计算机科学硕士在读",
+      "role2": "AI 爱好者",
+      "role3": "全栈开发者",
+      "role4": "终身学习者"
+    }
+  },
+  "home2": {
+    "titlePrefix": "让我",
+    "titleHighlight": "介绍",
+    "titleSuffix": "一下自己",
+    "avatarAlt": "个人头像",
+    "body": {
+      "p1": "我是计算机科学学生兼软件工程师，喜欢把想法落地为可靠、可扩展的产品。",
+      "p2": "我熟悉 PHP、Go、Python、React Native、Vue、Node.js、UniApp 和 H5，也乐于同时做后端与前端工作。",
+      "p3": "我重点关注 Web 应用、区块链方案，以及链上与链下系统的工程化连接。",
+      "p4": "在有机会时，我尤其喜欢用 PHP 和 Vue 等现代框架做项目。"
+    }
+  },
+  "about": {
+    "headingPrefix": "了解",
+    "headingHighlight": "我",
+    "imageAlt": "关于页插图",
+    "skillsetPrefix": "专业",
+    "skillsetHighlight": "技能栈",
+    "toolsPrefix": "我使用的",
+    "toolsSuffix": "工具",
+    "githubTitlePrefix": "我",
+    "githubTitleHighlight": "编码的日子",
+    "card": {
+      "line1": "大家好！我是 Beile Zhang，目前居住在悉尼 Annandale。",
+      "line2": "我的出生日期是 2002 年 5 月 1 日。",
+      "line3": "我目前在悉尼大学攻读计算机科学硕士（Advanced Entry），时间为 2026–2028。",
+      "line4": "此前，我在杜伦大学（College of St Hild & St Bede）完成了计算机科学理学学士学位，并于 2024 年 7 月 3 日以二等一荣誉毕业，毕业论文方向为 AI。",
+      "hobbiesIntro": "除了编程，我也喜欢一些能激发创造力和保持状态的活动：",
+      "activities": {
+        "workout": "健身 💪",
+        "music": "听音乐 🎵",
+        "travel": "旅行 🌍"
+      },
+      "quote": "持续学习，持续构建，持续进步！",
+      "author": "Beile Zhang"
+    },
+    "techstack": {
+      "items": {
+        "javascript": "JavaScript",
+        "typescript": "TypeScript",
+        "go": "Go",
+        "nodejs": "Node.js",
+        "reactjs": "React.js",
+        "vue": "Vue",
+        "uniapp": "UniApp",
+        "mysql": "MySQL",
+        "git": "Git",
+        "redis": "Redis",
+        "postgresql": "PostgreSQL",
+        "python": "Python",
+        "php": "PHP",
+        "postman": "Postman",
+        "aws": "AWS",
+        "nginx": "Nginx"
+      }
+    },
+    "toolstack": {
+      "items": {
+        "macos": "Mac OS",
+        "chrome": "Google Chrome",
+        "vscode": "VS Code",
+        "intellij": "IntelliJ",
+        "windows": "Windows",
+        "edge": "Microsoft Edge",
+        "cursor": "Cursor",
+        "codex": "Codex",
+        "navicat": "Navicat",
+        "warp": "Warp",
+        "chatgpt": "ChatGPT",
+        "figma": "Figma",
+        "hbuilderx": "HBuilderX"
+      }
+    }
+  },
+  "projects": {
+  "headingPrefix": "我最近的",
+  "headingHighlight": "项目",
+  "subtitle": "这里是我在 2025–2026 年期间完成的一些项目。",
+    "privacyNotice": "由于客户要求完全隐私，无法展示。",
+    "cardImageAlt": "项目预览",
+    "tip": {
+      "title": "2025 年补充经历",
+      "intro": "2025 年期间参与 CDN 相关部署工作：",
+      "items": {
+        "item1": "独立部署服务器实例",
+        "item2": "安装独享节点",
+        "item3": "网络链路测试与带宽检测",
+        "item4": "视频下载与渲染性能测试",
+        "item5": "线路稳定性与延迟优化"
+      },
+      "summary": "积累了服务器部署与网络性能优化的实战经验。"
+    },
+    "items": {
+      "chatify": {
+        "title": "CTF Demo – 2026",
+        "description": "一个基于自动化脚本的 AI 对抗实验项目，使用 Codex 编写对话脚本模拟真实用户，与 promptairlines.com 进行持续交互，绕过前端限制直连后端接口，自动化逆向分析系统行为，并全量记录对话日志用于策略优化，在测试环境中实现 100% 通过率。"
+      },
+      "bitsOfCode": {
+        "title": "Telebot & CMS 系统 – 2026",
+        "description": "一个高性能、轻量化的 Bot + 后台管理系统，后端使用 ThinkPHP，Bot 层基于 Node.js 部署在 Ubuntu 服务器，数据库为 MySQL，包含用户管理、系统通知、自动佣金结算、任务发布、充值与提现等模块。在保证完整业务的前提下将代码体积优化到约 40MB，并结合 2025 年的 CDN 部署经验做了服务器与网络性能优化。"
+      },
+      "editorIo": {
+        "title": "致敬 Freetrade – 2026",
+        "description": "参考英国股票交易平台 Freetrade，用 Vue 搭建的简洁官网 Demo，重点练习组件化架构、响应式布局和金融类产品的信息层级与交互体验。"
+      },
+      "plantAi": {
+        "title": "跨境电商独立站 – 2025",
+        "description": "一个远程参与的二次开发项目，我作为全栈开发负责前后端协作。前端采用 React Native + Expo，实现 Web / Android / iOS 三端统一代码；后端使用客户自有技术栈（Go 或 Java）。主要工作包括重构前端架构、解决跨平台兼容问题，以及优化状态管理和接口调用。"
+      },
+      "aiForSocialGood": {
+        "title": "ETHFI DApp – 2025",
+        "description": "一个原生区块链应用团队项目，我负责前端开发，使用 Vue 3 与 Go 后端团队协作。主要工作包括解决 WebView 兼容性问题、集成加密钱包 API、处理 DApp 交互逻辑，并独立完成 UI 设计，显著提升了区块链前端与多人协作能力。"
+      },
+      "faceEmotion": {
+        "title": "养老理财平台 – 2025",
+        "description": "一个养老理财后台管理系统，由我独立完成开发与交付。后端基于 Workerman，前端使用 UniApp，在 15 天内实现并上线包含购买、充值/提现、签到、新闻公告、表单系统和限时活动等模块，项目在“客户要求绝对隐私”的前提下交付。"
+      }
+    }
+  },
+  "email": {
+    "headingHighlight": "邮箱",
+    "headingSuffix": "联系方式",
+    "subtitle": "你可以通过学校邮箱或个人邮箱联系我。",
+    "schoolTitle": "学校邮箱",
+    "personalTitle": "个人邮箱",
+    "schoolPurposePrefix": "适合",
+    "schoolPurposeHighlight": "学校相关咨询",
+    "schoolPurposeSuffix": "、课程讨论和学术合作。",
+    "personalPurposePrefix": "适合",
+    "personalPurposeHighlight": "个人项目",
+    "personalPurposeSuffix": "、社交沟通和日常交流。",
+    "languageLinePrefix": "你可以用",
+    "languageLineEnglish": "英语",
+    "languageLineMiddle": "或",
+    "languageLineChinese": "中文",
+    "replyPrefix": "我通常会在",
+    "replyHighlight": "1–2 个工作日",
+    "replySuffix": "内回复（取决于学习安排）。",
+    "tipsTitle": "快速建议",
+    "tipsIntro": "为了让我更快回复，请尽量包含：",
+    "tip1Prefix": "清晰的",
+    "tip1Highlight": "邮件主题",
+    "tip1Suffix": "（例如：\"项目合作\"、\"实习\"、\"课程问题\"）",
+    "tip2Prefix": "你的",
+    "tip2Highlight": "姓名",
+    "tip2Suffix": "和简短自我介绍",
+    "tip3Prefix": "相关",
+    "tip3Highlight": "链接",
+    "tip3Suffix": "（GitHub、Demo、文档）",
+    "preferMessagingPrefix": "如果你更偏好即时沟通，也可以通过",
+    "preferMessagingHighlight": "WhatsApp 联系我"
+  },
+  "footer": {
+    "designedBy": "由 Beile Zhang 设计与开发",
+    "copyright": "版权所有 © {{year}} BZ"
+  },
+  "resume": {
+    "unavailable": "简历暂时不可用。"
+  }
+}

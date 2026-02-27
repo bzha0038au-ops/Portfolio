@@ -1,58 +1,44 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
+import { useTranslation } from "react-i18next";
 
 function AboutCard() {
+  const { t } = useTranslation();
+
   return (
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi everyone! I’m <span className="purple">Beile Zhang</span>{" "}
-            from <span className="purple">Fujian, China</span>, currently
-            living in <span className="purple">Annandale, Sydney</span>.
+            {t("about.card.line1")}
             <br />
-            I was born on{" "}
-            <span className="purple">1 May 2002</span>.
+            {t("about.card.line2")}
             <br />
-            I’m currently pursuing a{" "}
-            <span className="purple">
-              Master of Computer Science (Advanced Entry)
-            </span>{" "}
-            at the <span className="purple">University of Sydney</span>{" "}
-            (2026–2028).
+            {t("about.card.line3")}
             <br />
-            Previously, I completed a{" "}
-            <span className="purple">Bachelor of Science</span> in{" "}
-            <span className="purple">Computer Science</span> at{" "}
-            <span className="purple">Durham University</span> (
-            <span className="purple">College of St Hild &amp; St Bede</span>),
-            graduating on{" "}
-            <span className="purple">3 July 2024</span> with{" "}
-            <span className="purple">Class II Division 1 (Honours)</span> and
-            an AI-focused dissertation.
+            {t("about.card.line4")}
             <br />
             <br />
-            Outside of coding, I love engaging in activities that keep me
-            creative and inspired:
+            {t("about.card.hobbiesIntro")}
           </p>
 
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Working Out 💪
+              <ImPointRight /> {t("about.card.activities.workout")}
             </li>
             <li className="about-activity">
-              <ImPointRight /> Listening to Music 🎵
+              <ImPointRight /> {t("about.card.activities.music")}
             </li>
             <li className="about-activity">
-              <ImPointRight /> Traveling 🌍
+              <ImPointRight /> {t("about.card.activities.travel")}
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Keep learning, keep building, keep improving!"{" "}
+            "{t("about.card.quote")}"{" "}
           </p>
-          <footer className="blockquote-footer">Beile Zhang</footer>
+          <footer className="blockquote-footer">{t("about.card.author")}</footer>
         </blockquote>
       </Card.Body>
     </Card>

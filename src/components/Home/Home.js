@@ -1,11 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
-import Techstack from "../About/Techstack";
-import Github from "../About/Github";
+import { useTranslation } from "react-i18next";
 import {
   AiFillGithub,
   AiOutlineTwitter,
@@ -14,6 +12,8 @@ import {
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home() {
+  const { t } = useTranslation();
+
   return (
     <section>
       <Container fluid className="home-section" id="home">
@@ -22,14 +22,14 @@ function Home() {
           <Row>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hi There!{" "}
+                {t("home.greeting")}{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
                 </span>
               </h1>
 
               <h1 className="heading-name">
-                I'M
+                {t("home.im")}
                 <strong className="main-name"> Beile Zhang</strong>
               </h1>
 
@@ -40,10 +40,16 @@ function Home() {
 
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img
-                src={homeLogo}
-                alt="home pic"
+                src="/avatar2.jpg"
                 className="img-fluid"
-                style={{ maxHeight: "450px" }}
+                alt={t("home.heroAlt")}
+                style={{
+                  width: "100%",
+                  maxHeight: "420px",
+                  objectFit: "cover",
+                  borderRadius: "18px",
+                  border: "1px solid rgba(255,255,255,0.2)",
+                }}
               />
             </Col>
           </Row>
@@ -54,9 +60,11 @@ function Home() {
       <Container>
         <Row style={{ paddingTop: "50px", paddingBottom: "80px" }}>
           <Col md={12} className="home-about-social">
-            <h1>Find Me On</h1>
+            <h1>{t("home.findMeOn")}</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              {t("home.connectPrefix")}{" "}
+              <span className="purple">{t("home.connectHighlight")}</span>{" "}
+              {t("home.connectSuffix")}
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
