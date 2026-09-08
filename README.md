@@ -11,11 +11,15 @@ This project is a personal website for showcasing:
 - Home introduction and social links
 - About page (background, skills, tools, GitHub contributions)
 - Projects page (project cards + experience tip section)
+- Resume page (in-browser PDF viewer for CV and reference letters)
 - Contact page (email and response tips)
 
 ## Current Features
 
-- Multi-page routing (`/`, `/about`, `/project`, `/email`)
+- Multi-page routing (`/`, `/about`, `/project`, `/resume`, `/email`), with unknown
+  paths redirected to `/`
+- In-browser PDF rendering via `react-pdf` / pdf.js, with a pinned worker and
+  localised loading and error states
 - Language switcher with 7 languages:
   - English (`en`)
   - Chinese (`zh`)
@@ -35,9 +39,31 @@ This project is a personal website for showcasing:
 - React Router 6
 - React Bootstrap + Bootstrap 5
 - i18next + react-i18next
+- react-pdf / pdf.js
 - React Icons
 - react-github-calendar
 - CSS3
+
+## Deployment
+
+The site is a static Create React App bundle served by nginx behind Cloudflare.
+
+Because routing is client-side, the server must fall back to `index.html` for any
+path that is not a real file — otherwise `/about`, `/project`, `/resume` and
+`/email` return a server 404 when opened directly or refreshed:
+
+```nginx
+location / {
+    try_files $uri $uri/ /index.html;
+}
+```
+
+Note that this fallback also makes unknown paths return `200` with the SPA shell
+(React Router then redirects them to `/`), so the site does not emit hard 404s.
+
+After deploying, purge the Cloudflare cache for any asset that changed — static
+files such as the CV PDFs are cached at the edge and will otherwise keep serving
+the previous version until `max-age` expires.
 
 ## Local Development
 
@@ -92,6 +118,7 @@ npm run i18n:check
 - `src/components/Home/`: home page
 - `src/components/About/`: about page
 - `src/components/Projects/`: projects page
+- `src/components/Resume/`: resume page and PDF viewer
 - `src/components/Email/`: contact page
 - `src/components/Navbar.js`: top navigation + language switcher
 - `src/components/Footer.js`: footer
