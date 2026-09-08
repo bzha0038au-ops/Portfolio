@@ -27,3 +27,13 @@ yarn-error.log*
 
 Server/node_modules
 Server/config.js
+# editor
+.idea/
+
+# Personal documents -- never commit these. Anything under public/ is copied
+# verbatim into the production build and served publicly, and committing them
+# here would also mirror them on GitHub permanently.
+DURHAM_TRANSCRIPT.pdf
+public/000978637_LETTER.pdf
+public/000978637_TRANSCRIPT.pdf
+uni头像.png
