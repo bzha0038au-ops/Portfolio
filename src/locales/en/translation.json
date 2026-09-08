@@ -4,6 +4,7 @@
     "about": "About",
     "email": "Email",
     "projects": "Projects",
+    "resume": "Resume",
     "whatsapp": "WhatsApp",
     "language": "Language",
     "chooseLanguage": "Choose language",
@@ -160,6 +161,47 @@
         "title": "Retirement Finance Platform – 2025",
         "description": "A small pension and wealth management platform where I independently delivered the backend system and launch in 15 days. The backend uses Workerman with a UniApp frontend and includes purchasing, recharge/withdrawal, check-in, news/announcements, form management, and limited-time promotions, built under strict client privacy requirements."
       }
+    },
+    "highlights": {
+      "sectionTitle": "Dev & Ops Highlights",
+      "workflow": {
+        "title": "AI Dev Workflow",
+        "subtitle": "From codebase analysis to automated deployment.",
+        "steps": {
+          "analyze": "AI analyzes codebase / framework",
+          "readme": "AI writes README",
+          "userReq": "User proposes requirements",
+          "plan": "AI makes plan",
+          "review": "User review",
+          "adjust": "User adjust",
+          "multiAgent": "Multi-AI agent",
+          "code": "Coding",
+          "crossCheck": "Model cross-check",
+          "aiTest": "AI testing",
+          "testResult": "AI writes test results",
+          "userCheck": "User check",
+          "deployDoc": "AI writes deployment docs",
+          "manualDeploy": "Manual deployment",
+          "optimizeDoc": "Optimize deployment docs",
+          "autoDeploy": "Implement automated deployment"
+        }
+      },
+      "openclaw": {
+        "title": "OpenClaw Deployment Write-up",
+        "subtitle": "Server setup, install script, and security notes.",
+        "p1": "Prepare a server and connect to it (e.g. via SSH).",
+        "p2": "In the terminal run: curl -fsSL https://openclaw.ai/install.sh | bash, and follow the script to complete installation.",
+        "p3": "Complete the configuration as guided: prepare your Bot (Telegram) key and the corresponding model API key, then test the connection.",
+        "p4": "Ensure the gateway is open and that OpenClaw’s service port is only accessible by you; otherwise there are security and fund loss risks."
+      },
+      "script": {
+        "title": "Demo Automation Script",
+        "subtitle": "Health check / AI agent trigger (copy to use).",
+        "basicLabel": "Basic",
+        "advancedLabel": "Advanced"
+      },
+      "readMore": "Read more",
+      "readLess": "Read less"
     }
   },
   "email": {
@@ -200,6 +242,14 @@
     "copyright": "Copyright © {{year}} BZ"
   },
   "resume": {
-    "unavailable": "Resume is temporarily unavailable."
+    "unavailable": "Resume is temporarily unavailable.",
+    "loading": "Loading PDF…",
+    "error": "Failed to load PDF.",
+    "buttons": {
+      "year2026": "CV",
+      "year2024": "2024",
+      "refer1": "Reference 1",
+      "refer2": "Reference 2"
+    }
   }
 }
