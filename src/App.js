@@ -7,6 +7,8 @@ import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 import Email from "./components/Email/Email";
 import ResumeNew from "./components/Resume/ResumeNew";
+import Writing from "./components/Writing/Writing";
+import StoredSolutionLine from "./components/Writing/StoredSolutionLine";
 import {
   BrowserRouter as Router,
   Route,
@@ -41,6 +43,8 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/email" element={<Email />} />
           <Route path="/resume" element={<ResumeNew />} />
+          <Route path="/writing" element={<Writing />} />
+          <Route path="/writing/stored-solution-line" element={<StoredSolutionLine />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />

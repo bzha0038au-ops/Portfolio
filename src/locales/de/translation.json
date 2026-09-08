@@ -16,7 +16,8 @@
       "ar": "Arabisch",
       "ru": "Russisch",
       "hi": "Hindi"
-    }
+    },
+    "writing": "Fachtexte"
   },
   "common": {
     "actions": {
@@ -119,9 +120,9 @@
     }
   },
   "projects": {
-  "headingPrefix": "Meine neuesten",
-  "headingHighlight": "Arbeiten",
-  "subtitle": "Hier sind einige Projekte, an denen ich von 2025 bis 2026 gearbeitet habe.",
+    "headingPrefix": "Meine neuesten",
+    "headingHighlight": "Arbeiten",
+    "subtitle": "Hier sind einige Projekte, an denen ich von 2025 bis 2026 gearbeitet habe.",
     "privacyNotice": "Aufgrund strenger Datenschutzanforderungen des Kunden kann dieser Inhalt nicht gezeigt werden.",
     "cardImageAlt": "Projektvorschau",
     "tip": {
@@ -251,5 +252,11 @@
       "refer1": "Empfehlung 1",
       "refer2": "Empfehlung 2"
     }
+  },
+  "writing": {
+    "title": "Technische",
+    "titleAccent": "Texte",
+    "subtitle": "Ausführlichere Notizen zu Entscheidungen, über die ich lange nachdenken musste.",
+    "languageNote": "Die Artikel sind auf Englisch verfasst."
   }
 }

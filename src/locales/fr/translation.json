@@ -16,7 +16,8 @@
       "ar": "Arabe",
       "ru": "Russe",
       "hi": "Hindi"
-    }
+    },
+    "writing": "Écrits"
   },
   "common": {
     "actions": {
@@ -119,9 +120,9 @@
     }
   },
   "projects": {
-  "headingPrefix": "Mes",
-  "headingHighlight": "travaux récents",
-  "subtitle": "Voici quelques projets sur lesquels j'ai travaillé entre 2025 et 2026.",
+    "headingPrefix": "Mes",
+    "headingHighlight": "travaux récents",
+    "subtitle": "Voici quelques projets sur lesquels j'ai travaillé entre 2025 et 2026.",
     "privacyNotice": "En raison des exigences strictes de confidentialité du client, ce contenu ne peut pas être affiché.",
     "cardImageAlt": "Aperçu du projet",
     "tip": {
@@ -251,5 +252,11 @@
       "refer1": "Lettre 1",
       "refer2": "Lettre 2"
     }
+  },
+  "writing": {
+    "title": "Écrits",
+    "titleAccent": "techniques",
+    "subtitle": "Des notes plus longues sur des décisions qui m'ont demandé réflexion.",
+    "languageNote": "Les articles sont rédigés en anglais."
   }
 }

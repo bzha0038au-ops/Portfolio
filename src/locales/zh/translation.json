@@ -16,7 +16,8 @@
       "ar": "阿拉伯语",
       "ru": "俄语",
       "hi": "印地语"
-    }
+    },
+    "writing": "技术写作"
   },
   "common": {
     "actions": {
@@ -119,9 +120,9 @@
     }
   },
   "projects": {
-  "headingPrefix": "我最近的",
-  "headingHighlight": "项目",
-  "subtitle": "这里是我在 2025–2026 年期间完成的一些项目。",
+    "headingPrefix": "我最近的",
+    "headingHighlight": "项目",
+    "subtitle": "这里是我在 2025–2026 年期间完成的一些项目。",
     "privacyNotice": "由于客户要求完全隐私，无法展示。",
     "cardImageAlt": "项目预览",
     "tip": {
@@ -251,5 +252,11 @@
       "refer1": "推荐信",
       "refer2": "推荐信"
     }
+  },
+  "writing": {
+    "title": "技术",
+    "titleAccent": "写作",
+    "subtitle": "一些需要反复推敲的技术决策，写长一点。",
+    "languageNote": "文章以英文撰写。"
   }
 }
