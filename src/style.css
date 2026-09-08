@@ -253,6 +253,7 @@ button:focus {
   background-size: cover !important;
   width: 100%;
   height: 100%;
+  pointer-events: none !important; /* let clicks pass through to content */
 }
 
 .home-header {
@@ -451,6 +452,7 @@ button:focus {
 /* --------- */
 .project-section {
   position: relative !important;
+  z-index: 1 !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
@@ -544,6 +546,449 @@ button:focus {
 }
 
 /* --------- */
+/* Projects – Dev & Ops Highlights */
+/* --------- */
+.highlights-col {
+  padding-top: 16px !important;
+  padding-bottom: 16px !important;
+  padding-left: 12px !important;
+  padding-right: 12px !important;
+}
+
+.highlights-card {
+  color: white !important;
+  background: rgba(34, 211, 238, 0.08) !important;
+  border: 1px solid rgba(34, 211, 238, 0.35) !important;
+  border-radius: 14px !important;
+  padding: 20px 18px !important;
+  height: 100% !important;
+  display: flex !important;
+  flex-direction: column !important;
+  position: relative !important;
+  z-index: 2 !important;
+}
+
+.highlights-card-title {
+  color: #22d3ee !important;
+  font-size: 1.2em !important;
+  margin-bottom: 8px !important;
+}
+
+.highlights-card-subtitle {
+  color: rgba(255, 255, 255, 0.85) !important;
+  font-size: 0.9em !important;
+  margin-bottom: 14px !important;
+}
+
+/* Workflow 单独板块容器 */
+.workflow-section-col {
+  padding-left: 12px !important;
+  padding-right: 12px !important;
+}
+
+/* AI Dev Workflow - 独立板块样式 */
+.workflow-standalone {
+  max-width: 900px !important;
+  margin: 0 auto !important;
+  padding: 28px 28px 24px !important;
+  background: linear-gradient(
+    145deg,
+    rgba(6, 78, 99, 0.25) 0%,
+    rgba(8, 15, 24, 0.4) 50%,
+    rgba(6, 78, 99, 0.2) 100%
+  ) !important;
+  border: 1px solid rgba(34, 211, 238, 0.4) !important;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25), 0 0 0 1px rgba(34, 211, 238, 0.08) inset !important;
+}
+
+.workflow-standalone .workflow-header {
+  text-align: center !important;
+  margin-bottom: 24px !important;
+  padding-bottom: 20px !important;
+  border-bottom: 1px solid rgba(34, 211, 238, 0.25) !important;
+}
+
+.workflow-standalone .workflow-title {
+  font-size: 1.5em !important;
+  margin-bottom: 6px !important;
+  letter-spacing: 0.02em !important;
+}
+
+.workflow-standalone .workflow-subtitle {
+  margin-bottom: 0 !important;
+  font-size: 0.95em !important;
+  opacity: 0.9 !important;
+}
+
+.workflow-standalone .workflow-diagram-vertical {
+  max-height: 380px !important;
+  padding-right: 8px !important;
+}
+
+/* 跳棋式 zigzag：从左到右 → 换行从右到左 → 再从左到右，每行等宽两端对齐 */
+.workflow-diagram-zigzag {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: stretch !important;
+  gap: 0 !important;
+  max-height: none !important;
+  overflow: visible !important;
+  padding: 0 8px !important;
+  width: 100% !important;
+}
+
+.workflow-row-wrap {
+  position: relative !important;
+  width: 100% !important;
+  padding-bottom: 32px !important;
+}
+
+.workflow-row-wrap:last-child {
+  padding-bottom: 0 !important;
+}
+
+.workflow-row {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  flex-wrap: nowrap !important;
+  gap: 0 !important;
+  padding: 6px 0 !important;
+  width: 100% !important;
+  min-height: 48px !important;
+}
+
+.workflow-arrow-h {
+  color: #22d3ee !important;
+  font-size: 1.1em !important;
+  padding: 0 6px !important;
+  flex-shrink: 0 !important;
+  opacity: 0.9 !important;
+}
+
+.workflow-connector-down {
+  position: absolute !important;
+  left: 0 !important;
+  right: 0 !important;
+  top: 100% !important;
+  height: 32px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 0 !important;
+}
+
+.workflow-diagram-zigzag .workflow-arrow-down {
+  padding: 0 !important;
+  font-size: 1.6em !important;
+  font-weight: 800 !important;
+  color: #22d3ee !important;
+  text-shadow: 0 0 10px rgba(34, 211, 238, 0.5) !important;
+  line-height: 1 !important;
+}
+
+@media (max-width: 768px) {
+  .workflow-standalone .workflow-node {
+    padding: 8px 10px !important;
+    font-size: 0.75em !important;
+  }
+  .workflow-standalone .workflow-node-num {
+    width: 22px !important;
+    height: 22px !important;
+    line-height: 22px !important;
+    margin-right: 8px !important;
+  }
+  .workflow-arrow-h {
+    padding: 0 4px !important;
+    font-size: 1em !important;
+  }
+}
+
+.workflow-standalone .workflow-node {
+  padding: 10px 16px !important;
+  font-size: 0.85em !important;
+  border-radius: 12px !important;
+  border: 1px solid rgba(34, 211, 238, 0.45) !important;
+  background: rgba(8, 15, 24, 0.6) !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15) !important;
+  transition: transform 0.2s, box-shadow 0.2s !important;
+}
+
+.workflow-standalone .workflow-node:hover {
+  transform: translateX(4px) !important;
+  box-shadow: 0 4px 12px rgba(34, 211, 238, 0.2) !important;
+}
+
+.workflow-standalone .workflow-node-num {
+  width: 26px !important;
+  height: 26px !important;
+  line-height: 26px !important;
+  font-size: 0.85em !important;
+  margin-right: 12px !important;
+  background: linear-gradient(135deg, rgba(34, 211, 238, 0.4), rgba(6, 182, 212, 0.35)) !important;
+}
+
+.workflow-standalone .workflow-arrow-down {
+  padding: 6px 0 !important;
+  font-size: 1em !important;
+  opacity: 0.8 !important;
+}
+
+/* AI Dev Workflow diagram（通用） */
+.workflow-diagram {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 6px 4px !important;
+}
+
+.workflow-diagram-vertical {
+  flex-direction: column !important;
+  flex-wrap: nowrap !important;
+  align-items: stretch !important;
+  gap: 0 !important;
+  max-height: 320px !important;
+  min-height: 0 !important;
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+  -webkit-overflow-scrolling: touch !important;
+}
+
+.workflow-node {
+  display: inline-flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  padding: 8px 12px !important;
+  background: rgba(6, 182, 212, 0.2) !important;
+  border-radius: 10px !important;
+  border: 1px solid rgba(34, 211, 238, 0.4) !important;
+  font-size: 0.8em !important;
+  min-width: 60px !important;
+}
+
+.workflow-diagram-vertical .workflow-node {
+  flex-direction: row !important;
+  padding: 6px 10px !important;
+  font-size: 0.75em !important;
+}
+
+.workflow-node-num {
+  flex-shrink: 0 !important;
+  width: 20px !important;
+  height: 20px !important;
+  line-height: 20px !important;
+  text-align: center !important;
+  background: rgba(34, 211, 238, 0.35) !important;
+  border-radius: 50% !important;
+  margin-right: 8px !important;
+  font-weight: 600 !important;
+  font-size: 0.9em !important;
+}
+
+.workflow-node-icon {
+  font-size: 1.4em !important;
+  margin-bottom: 4px !important;
+}
+
+.workflow-arrow {
+  color: #22d3ee !important;
+  font-size: 1.1em !important;
+  padding: 0 2px !important;
+}
+
+.workflow-arrow-down {
+  color: #22d3ee !important;
+  font-size: 0.9em !important;
+  text-align: center !important;
+  padding: 2px 0 !important;
+  line-height: 1 !important;
+}
+
+/* OpenClaw write-up */
+.writeup-body {
+  flex: 1 !important;
+  font-size: 0.95em !important;
+  line-height: 1.5 !important;
+}
+
+.writeup-body p {
+  margin-bottom: 10px !important;
+}
+
+.writeup-cmd-block {
+  display: flex !important;
+  align-items: center !important;
+  flex-wrap: wrap !important;
+  gap: 10px !important;
+  margin: 12px 0 !important;
+  padding: 10px 12px !important;
+  background: rgba(8, 15, 24, 0.9) !important;
+  border: 1px solid rgba(34, 211, 238, 0.35) !important;
+  border-radius: 8px !important;
+  position: relative !important;
+  z-index: 2 !important;
+}
+
+.writeup-cmd-text {
+  font-family: ui-monospace, "SF Mono", Consolas, monospace !important;
+  font-size: 0.8em !important;
+  color: #a5f3fc !important;
+  flex: 1 !important;
+  min-width: 0 !important;
+  word-break: break-all !important;
+}
+
+.writeup-cmd-copy {
+  flex-shrink: 0 !important;
+  padding: 5px 10px !important;
+  background: rgba(34, 211, 238, 0.2) !important;
+  border: 1px solid rgba(34, 211, 238, 0.5) !important;
+  color: #22d3ee !important;
+  border-radius: 6px !important;
+  font-size: 0.8em !important;
+  cursor: pointer !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 4px !important;
+  position: relative !important;
+  z-index: 3 !important;
+}
+
+.writeup-cmd-copy:hover {
+  background: rgba(34, 211, 238, 0.3) !important;
+  color: #67e8f9 !important;
+}
+
+.writeup-toggle {
+  margin-top: 10px !important;
+  padding: 8px 14px !important;
+  background: transparent !important;
+  border: 1px solid rgba(34, 211, 238, 0.5) !important;
+  color: #22d3ee !important;
+  border-radius: 8px !important;
+  font-size: 0.9em !important;
+  cursor: pointer !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  transition: background 0.2s, color 0.2s !important;
+  position: relative !important;
+  z-index: 3 !important;
+}
+
+.writeup-toggle:hover {
+  background: rgba(34, 211, 238, 0.15) !important;
+  color: #67e8f9 !important;
+}
+
+/* Script version tabs */
+.script-tabs {
+  display: flex !important;
+  gap: 8px !important;
+  margin-bottom: 10px !important;
+  flex-wrap: wrap !important;
+  position: relative !important;
+  z-index: 3 !important;
+}
+
+.script-tab {
+  cursor: pointer !important;
+  position: relative !important;
+  z-index: 3 !important;
+  padding: 6px 14px !important;
+  font-size: 0.85em !important;
+  border-radius: 8px !important;
+  border: 1px solid rgba(34, 211, 238, 0.4) !important;
+  background: transparent !important;
+  color: rgba(255, 255, 255, 0.9) !important;
+  cursor: pointer !important;
+  transition: background 0.2s, color 0.2s, border-color 0.2s !important;
+}
+
+.script-tab:hover {
+  background: rgba(34, 211, 238, 0.12) !important;
+  color: #a5f3fc !important;
+}
+
+.script-tab-active {
+  background: rgba(34, 211, 238, 0.25) !important;
+  color: #22d3ee !important;
+  border-color: #22d3ee !important;
+}
+
+/* Demo script block: dark code block, monospace, scrollable */
+.script-wrapper {
+  position: relative !important;
+  border-radius: 10px !important;
+  overflow: hidden !important;
+  background: rgba(8, 15, 24, 0.98) !important;
+  border: 1px solid rgba(34, 211, 238, 0.35) !important;
+  box-shadow: inset 0 1px 0 rgba(34, 211, 238, 0.06) !important;
+}
+
+.script-wrapper .script-block {
+  margin: 0 !important;
+  padding: 42px 14px 14px 14px !important;
+  font-size: 0.72rem !important;
+  line-height: 1.5 !important;
+  color: #a5f3fc !important;
+  overflow-x: auto !important;
+  overflow-y: auto !important;
+  max-height: 260px !important;
+  min-height: 120px !important;
+  -webkit-overflow-scrolling: touch !important;
+}
+
+.script-block code {
+  font-family: ui-monospace, "SF Mono", "Cascadia Code", "Consolas", monospace !important;
+  white-space: pre !important;
+  display: block !important;
+}
+
+.script-copy-btn {
+  position: absolute !important;
+  top: 10px !important;
+  right: 10px !important;
+  z-index: 2 !important;
+  padding: 6px 12px !important;
+  background: rgba(34, 211, 238, 0.18) !important;
+  border: 1px solid rgba(34, 211, 238, 0.5) !important;
+  color: #22d3ee !important;
+  border-radius: 6px !important;
+  font-size: 0.8em !important;
+  cursor: pointer !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  transition: background 0.2s, color 0.2s, border-color 0.2s !important;
+}
+
+.script-copy-btn:hover {
+  background: rgba(34, 211, 238, 0.28) !important;
+  color: #67e8f9 !important;
+  border-color: rgba(34, 211, 238, 0.65) !important;
+}
+
+.script-copy-btn:focus {
+  outline: none !important;
+  box-shadow: 0 0 0 2px rgba(34, 211, 238, 0.35) !important;
+}
+
+.script-copy-icon {
+  flex-shrink: 0 !important;
+  font-size: 1em !important;
+}
+
+@media (max-width: 991px) {
+  .highlights-col {
+    max-width: 100% !important;
+    flex: 0 0 100% !important;
+  }
+}
+
+/* --------- */
 /* About */
 /* --------- */
 
@@ -626,6 +1071,58 @@ button:focus {
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
   color: white !important;
+}
+
+.resume-pdf-buttons {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  gap: 10px 12px !important;
+  margin-bottom: 20px !important;
+}
+
+.resume-pdf-btn {
+  border-color: rgba(34, 211, 238, 0.6) !important;
+  color: #22d3ee !important;
+  background: transparent !important;
+}
+
+.resume-pdf-btn:hover {
+  border-color: #22d3ee !important;
+  color: #0e7490 !important;
+  background: rgba(34, 211, 238, 0.15) !important;
+}
+
+.resume-pdf-btn.primary,
+.resume-pdf-btn.btn-primary {
+  background: rgba(34, 211, 238, 0.35) !important;
+  border-color: #22d3ee !important;
+  color: white !important;
+}
+
+.resume-pdf-wrapper {
+  background: rgba(255, 255, 255, 0.97) !important;
+  border-radius: 8px !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3) !important;
+  overflow: hidden !important;
+}
+
+.resume-pdf-wrapper canvas {
+  display: block !important;
+}
+
+.resume-pdf-loading,
+.resume-pdf-error {
+  padding: 2rem !important;
+  color: #0e7490 !important;
+  min-height: 200px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.resume-pdf-error {
+  color: #b91c1c !important;
 }
 
 .resume {

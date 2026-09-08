@@ -3,6 +3,9 @@ import { Container, Row, Col, Modal } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
+import AIDevWorkflow from "./AIDevWorkflow";
+import OpenClawWriteUp from "./OpenClawWriteUp";
+import DemoAutomationScript from "./DemoAutomationScript";
 
 const projects = [
   {
@@ -118,6 +121,28 @@ function Projects() {
               />
             </Col>
           ))}
+        </Row>
+
+        {/* Dev & Ops Highlights: Workflow 单独板块，OpenClaw + Script 下方两列 */}
+        <Row style={{ justifyContent: "center", paddingTop: "40px", paddingBottom: "12px" }}>
+          <Col md={12}>
+            <h2 className="project-heading" style={{ marginBottom: "24px" }}>
+              {t("projects.highlights.sectionTitle")}
+            </h2>
+          </Col>
+        </Row>
+        <Row style={{ justifyContent: "center", paddingBottom: "28px" }}>
+          <Col md={12} className="workflow-section-col">
+            <AIDevWorkflow standalone />
+          </Col>
+        </Row>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={6} className="highlights-col">
+            <OpenClawWriteUp />
+          </Col>
+          <Col md={6} className="highlights-col">
+            <DemoAutomationScript />
+          </Col>
         </Row>
 
         <Modal show={showPrivacyModal} onHide={closePrivacyModal} centered>
