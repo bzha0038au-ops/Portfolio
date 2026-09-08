@@ -1256,3 +1256,145 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+/* --------------------------------------------------------------------------
+   Writing / articles
+   Long-form technical posts. Body copy is English-only and lives in the
+   components, not in the i18n tables: check-i18n.js enforces exact key parity
+   across all seven locales, and an article body is not something to machine
+   translate seven ways. Only the index page chrome is localised.
+   -------------------------------------------------------------------------- */
+
+.writing-section {
+  position: relative;
+  padding-top: 150px;
+  padding-bottom: 60px;
+  color: white;
+}
+
+.writing-article {
+  max-width: 760px;
+  text-align: left;
+}
+
+.writing-back a {
+  color: #22d3ee;
+  text-decoration: none;
+  font-size: 0.95em;
+}
+.writing-back a:hover { color: #67e8f9; }
+
+.writing-title {
+  font-size: 2.1em;
+  font-weight: 700;
+  line-height: 1.25;
+  margin-bottom: 14px;
+}
+
+.writing-dek {
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #cbd5e1;
+  margin-bottom: 8px;
+}
+
+.writing-meta,
+.writing-card-meta {
+  font-size: 0.9em;
+  color: #7c9cb0;
+  margin-bottom: 34px;
+}
+
+.writing-article h2 {
+  font-size: 1.35em;
+  font-weight: 600;
+  color: #22d3ee;
+  margin-top: 38px;
+  margin-bottom: 12px;
+}
+
+.writing-article p {
+  font-size: 1.02em;
+  line-height: 1.75;
+  color: #e2e8f0;
+  margin-bottom: 16px;
+}
+
+.writing-article code {
+  background: #10303a;
+  color: #67e8f9;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.92em;
+}
+
+.writing-code {
+  background: #0b1f2a;
+  border: 1px solid #164e5c;
+  border-radius: 8px;
+  padding: 16px 18px;
+  color: #a5f3fc;
+  font-size: 0.88em;
+  line-height: 1.6;
+  overflow-x: auto;
+  margin-bottom: 18px;
+}
+
+.writing-pull {
+  border-left: 3px solid #22d3ee;
+  padding-left: 16px;
+  font-size: 1.06em !important;
+  color: #f1f5f9 !important;
+  font-style: italic;
+  margin: 22px 0 !important;
+}
+
+.writing-result {
+  background: #10303a;
+  border-radius: 8px;
+  padding: 14px 18px;
+  text-align: center;
+  font-size: 1.15em !important;
+  font-weight: 600;
+  color: #67e8f9 !important;
+}
+
+.writing-lang-note {
+  color: #7c9cb0;
+  font-size: 0.9em;
+  margin-bottom: 26px;
+}
+
+.writing-card-link { text-decoration: none; }
+
+.writing-card {
+  background: #0f1f2ea9;
+  border: 1px solid #164e5c;
+  border-radius: 10px;
+  padding: 22px 24px;
+  text-align: left;
+  transition: all 0.3s ease-in-out;
+}
+.writing-card:hover {
+  transform: translateY(-3px);
+  border-color: #22d3ee;
+}
+
+.writing-card-title {
+  font-size: 1.3em;
+  font-weight: 600;
+  color: #22d3ee;
+  margin-bottom: 10px;
+}
+
+.writing-card-dek {
+  font-size: 1em;
+  line-height: 1.65;
+  color: #cbd5e1;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 767px) {
+  .writing-section { padding-top: 100px; }
+  .writing-title { font-size: 1.6em; }
+}
