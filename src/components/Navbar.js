@@ -12,6 +12,7 @@ import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
+  AiOutlineFileText,
 } from "react-icons/ai";
 import { useTranslation } from "react-i18next";
 import { supportedLanguages } from "../i18n";
@@ -121,7 +122,16 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            {/* Resume route temporarily hidden */}
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/resume"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineFileText style={{ marginBottom: "2px" }} />{" "}
+                {t("navbar.resume")}
+              </Nav.Link>
+            </Nav.Item>
 
             <Nav.Item>
               <Nav.Link
