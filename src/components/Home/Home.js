@@ -79,7 +79,7 @@ function Home() {
               </li>
               <li className="social-icons">
                 <a
-                  href="#"
+                  href="https://twitter.com"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -89,7 +89,7 @@ function Home() {
               </li>
               <li className="social-icons">
                 <a
-                  href="#"
+                  href="https://linkedin.com"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"

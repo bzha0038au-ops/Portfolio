@@ -4,6 +4,7 @@
     "about": "关于",
     "email": "邮箱",
     "projects": "项目",
+    "resume": "简历",
     "whatsapp": "WhatsApp",
     "language": "语言",
     "chooseLanguage": "选择语言",
@@ -160,6 +161,47 @@
         "title": "养老理财平台 – 2025",
         "description": "一个养老理财后台管理系统，由我独立完成开发与交付。后端基于 Workerman，前端使用 UniApp，在 15 天内实现并上线包含购买、充值/提现、签到、新闻公告、表单系统和限时活动等模块，项目在“客户要求绝对隐私”的前提下交付。"
       }
+    },
+    "highlights": {
+      "sectionTitle": "开发与运维亮点",
+      "workflow": {
+        "title": "AI 开发工作流",
+        "subtitle": "从代码框架分析到自动化部署。",
+        "steps": {
+          "analyze": "AI 分析代码框架",
+          "readme": "AI 写 README",
+          "userReq": "用户提出需求",
+          "plan": "AI 做 plan",
+          "review": "用户 review",
+          "adjust": "用户 adjust",
+          "multiAgent": "Multi-AI agent",
+          "code": "编码",
+          "crossCheck": "Model cross-check",
+          "aiTest": "AI 测试",
+          "testResult": "AI 写测试结果",
+          "userCheck": "用户 check",
+          "deployDoc": "AI 写部署文档",
+          "manualDeploy": "人工部署",
+          "optimizeDoc": "优化部署文档",
+          "autoDeploy": "实现自动化部署"
+        }
+      },
+      "openclaw": {
+        "title": "OpenClaw 部署说明",
+        "subtitle": "服务器准备、安装脚本与安全配置。",
+        "p1": "准备一台服务器，并通过 SSH 等方式连接服务器。",
+        "p2": "在终端执行：curl -fsSL https://openclaw.ai/install.sh | bash，根据脚本提示完成安装。",
+        "p3": "根据指导完成相关配置：准备 Bot（Telegram）的 key 以及对应模型的 API key，配置完成后测试链接。",
+        "p4": "确保 gateway 已打开，且 OpenClaw 的服务端口仅限你自己访问；否则存在安全漏洞与资金丢失风险。"
+      },
+      "script": {
+        "title": "示例自动化脚本",
+        "subtitle": "健康检查 / AI Agent 触发（可复制使用）。",
+        "basicLabel": "基础版",
+        "advancedLabel": "高级版"
+      },
+      "readMore": "展开阅读",
+      "readLess": "收起"
     }
   },
   "email": {
@@ -200,6 +242,14 @@
     "copyright": "版权所有 © {{year}} BZ"
   },
   "resume": {
-    "unavailable": "简历暂时不可用。"
+    "unavailable": "简历暂时不可用。",
+    "loading": "正在加载 PDF…",
+    "error": "加载 PDF 失败。",
+    "buttons": {
+      "year2026": "CV",
+      "year2024": "2024年",
+      "refer1": "推荐信",
+      "refer2": "推荐信"
+    }
   }
 }

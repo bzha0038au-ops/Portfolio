@@ -4,6 +4,7 @@
     "about": "À propos",
     "email": "E-mail",
     "projects": "Projets",
+    "resume": "CV",
     "whatsapp": "WhatsApp",
     "language": "Langue",
     "chooseLanguage": "Choisir la langue",
@@ -160,6 +161,47 @@
         "title": "Plateforme d’épargne retraite – 2025",
         "description": "Un backoffice de plateforme de gestion financière pour la retraite, livré en solo en 15 jours. Le backend est basé sur Workerman, le frontend sur UniApp, avec des modules d’achat, recharge/retrait, système de points quotidiens, actualités/annonces, formulaires et campagnes limitées dans le temps, le tout sous fortes exigences de confidentialité du client."
       }
+    },
+    "highlights": {
+      "sectionTitle": "Points forts Dev & Ops",
+      "workflow": {
+        "title": "Workflow de dev IA",
+        "subtitle": "De l'analyse du code à l'automatisation du déploiement.",
+        "steps": {
+          "analyze": "L'IA analyse la base de code / le framework",
+          "readme": "L'IA rédige le README",
+          "userReq": "L'utilisateur formule les besoins",
+          "plan": "L'IA établit le plan",
+          "review": "Revue par l'utilisateur",
+          "adjust": "Ajustements par l'utilisateur",
+          "multiAgent": "Multi-agents IA",
+          "code": "Développement",
+          "crossCheck": "Vérification croisée des modèles",
+          "aiTest": "Tests par l'IA",
+          "testResult": "L'IA rédige les résultats de tests",
+          "userCheck": "Vérification par l'utilisateur",
+          "deployDoc": "L'IA rédige la doc de déploiement",
+          "manualDeploy": "Déploiement manuel",
+          "optimizeDoc": "Optimiser la doc de déploiement",
+          "autoDeploy": "Mise en place du déploiement automatisé"
+        }
+      },
+      "openclaw": {
+        "title": "Documentation de déploiement OpenClaw",
+        "subtitle": "Préparer le serveur, script d’installation et sécurité.",
+        "p1": "Préparer un serveur et s’y connecter (ex. en SSH).",
+        "p2": "Dans le terminal exécuter : curl -fsSL https://openclaw.ai/install.sh | bash, puis suivre le script pour terminer l’installation.",
+        "p3": "Compléter la configuration selon la doc : renseigner la clé Bot (Telegram) et l’API key du modèle, puis tester la connexion.",
+        "p4": "S’assurer que la gateway est ouverte et que le port du service OpenClaw n’est accessible que par vous ; sinon risque de faille de sécurité et de perte de fonds."
+      },
+      "script": {
+        "title": "Script d'automatisation démo",
+        "subtitle": "Health check / déclencheur agent IA (à copier).",
+        "basicLabel": "Basique",
+        "advancedLabel": "Avancé"
+      },
+      "readMore": "Lire la suite",
+      "readLess": "Réduire"
     }
   },
   "email": {
@@ -200,6 +242,14 @@
     "copyright": "Copyright © {{year}} BZ"
   },
   "resume": {
-    "unavailable": "Le CV est temporairement indisponible."
+    "unavailable": "Le CV est temporairement indisponible.",
+    "loading": "Chargement du PDF…",
+    "error": "Échec du chargement du PDF.",
+    "buttons": {
+      "year2026": "CV",
+      "year2024": "2024",
+      "refer1": "Lettre 1",
+      "refer2": "Lettre 2"
+    }
   }
 }

@@ -35,9 +35,9 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="#"
+                href="https://twitter.com"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiOutlineTwitter />
@@ -45,9 +45,9 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="#"
+                href="https://linkedin.com"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn />

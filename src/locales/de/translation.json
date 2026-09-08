@@ -4,6 +4,7 @@
     "about": "Über mich",
     "email": "E-Mail",
     "projects": "Projekte",
+    "resume": "Lebenslauf",
     "whatsapp": "WhatsApp",
     "language": "Sprache",
     "chooseLanguage": "Sprache wählen",
@@ -160,6 +161,47 @@
         "title": "Altersvorsorge- und Finanzplattform – 2025",
         "description": "Eine kompakte Plattform für Altersvorsorgeprodukte, deren Backoffice ich allein in 15 Tagen umgesetzt habe. Das Backend nutzt Workerman, das Frontend UniApp und umfasst Module für Käufe, Ein- und Auszahlungen, Check-ins, News/Ankündigungen, Formulare und zeitlich begrenzte Aktionen – gebaut unter strengen Anforderungen an die Vertraulichkeit der Kundendaten."
       }
+    },
+    "highlights": {
+      "sectionTitle": "Dev- & Ops-Highlights",
+      "workflow": {
+        "title": "AI-Entwicklungs-Workflow",
+        "subtitle": "Von der Codebase-Analyse bis zur automatisierten Bereitstellung.",
+        "steps": {
+          "analyze": "KI analysiert Codebase / Framework",
+          "readme": "KI schreibt README",
+          "userReq": "Nutzer formuliert Anforderungen",
+          "plan": "KI erstellt Plan",
+          "review": "Nutzer prüft",
+          "adjust": "Nutzer passt an",
+          "multiAgent": "Multi-AI-Agent",
+          "code": "Implementierung",
+          "crossCheck": "Model Cross-Check",
+          "aiTest": "KI-Tests",
+          "testResult": "KI schreibt Testergebnisse",
+          "userCheck": "Nutzer prüft",
+          "deployDoc": "KI schreibt Deploy-Doku",
+          "manualDeploy": "Manuelles Deployment",
+          "optimizeDoc": "Deploy-Doku optimieren",
+          "autoDeploy": "Automatisiertes Deployment umsetzen"
+        }
+      },
+      "openclaw": {
+        "title": "OpenClaw-Deployment-Dokumentation",
+        "subtitle": "Server vorbereiten, Install-Skript und Sicherheitshinweise.",
+        "p1": "Einen Server bereitstellen und per SSH o. Ä. verbinden.",
+        "p2": "Im Terminal ausführen: curl -fsSL https://openclaw.ai/install.sh | bash, und der Anleitung des Skripts folgen.",
+        "p3": "Laut Anleitung konfigurieren: Bot- (Telegram-) Key und API-Key des Modells eintragen, danach die Verbindung testen.",
+        "p4": "Gateway geöffnet lassen; der OpenClaw-Port darf nur für dich erreichbar sein, sonst bestehen Sicherheits- und Geldverlustrisiken."
+      },
+      "script": {
+        "title": "Demo-Automatisierungs-Skript",
+        "subtitle": "Health-Check / AI-Agent-Trigger (zum Kopieren).",
+        "basicLabel": "Basis",
+        "advancedLabel": "Erweitert"
+      },
+      "readMore": "Mehr anzeigen",
+      "readLess": "Weniger anzeigen"
     }
   },
   "email": {
@@ -200,6 +242,14 @@
     "copyright": "Urheberrecht © {{year}} BZ"
   },
   "resume": {
-    "unavailable": "Der Lebenslauf ist vorübergehend nicht verfügbar."
+    "unavailable": "Der Lebenslauf ist vorübergehend nicht verfügbar.",
+    "loading": "PDF wird geladen…",
+    "error": "PDF konnte nicht geladen werden.",
+    "buttons": {
+      "year2026": "CV",
+      "year2024": "2024",
+      "refer1": "Empfehlung 1",
+      "refer2": "Empfehlung 2"
+    }
   }
 }
